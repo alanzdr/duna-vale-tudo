@@ -1,0 +1,39 @@
+#cars-container {
+  width: 85%;
+  max-width: 1180px;
+  margin: 0 auto;
+  transform: translateY(-60px);
+  position: relative;
+  z-index: 1;
+}
+
+#cars-container .list{
+  width: calc(100% + 20px);
+  margin: 0 -10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#cars-container .list .item {
+  width: calc(33.3333% - 20px);
+  margin: 0 10px;
+  margin-bottom: 20px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #cars-container {
+    width: 90%;
+  }
+  
+  #cars-container .list{
+    width: 100%;
+    margin: 0;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  #cars-container .list .item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,48 @@
+
+#single-header {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 10%;
+}
+
+#single-header .logo{
+  max-width: 264px;
+}
+
+#single-header .background{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+#single-header .countdown{
+  /* text-align: center; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: auto;
+}
+
+#single-header .countdown h4{
+  font-size: 24px;
+  color: #FFB300;
+  width: 175px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  #single-header .countdown h4{
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  #single-header .logo{
+    max-width: 80%;
+  }
+}
