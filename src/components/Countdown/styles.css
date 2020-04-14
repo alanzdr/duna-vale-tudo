@@ -4,33 +4,8 @@
   align-items: center;
 }
 
-#countdown-container .item {
-  text-align: center;
-  margin: 0 20px;
-}
-
-#countdown-container .item h2{
-  text-align: center;
-  font-size: 80px;
-  color: #fff;
-  margin: 0;
-  line-height: 1;
-  font-weight: 900;
-}
-
-#countdown-container .item p{
-  color: #8D5648;
-  font-size: 16px;
-  margin: 0;
-}
-
-
 @media screen and (max-width: 1000px) { 
-  #countdown-container .item {
-    text-align: center;
-    margin: 0 6px;
-  }
-  #countdown-container .item h2{
-    font-size: 64px;
+  #countdown-container {
+    justify-content: center;
   }
 }

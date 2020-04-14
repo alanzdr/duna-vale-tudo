@@ -4,6 +4,8 @@ import { useParams, useHistory } from 'react-router-dom'
 import Header from './components/Header';
 import Infos from './components/Infos';
 import Galery from './components/Galery';
+import Optionals from './components/Optionals';
+import Footer from '../../components/Footer'
 import "./styles.css";
 
 const Single = ({data}) => {
@@ -15,7 +17,6 @@ const Single = ({data}) => {
   useEffect(() => {
     setIfIsMobile(window.innerWidth <= 1000);
     const handleResize = () => {
-      console.log(window.innerWidth)
       setIfIsMobile(window.innerWidth <= 1000);
     }
     window.addEventListener('resize', handleResize);
@@ -38,15 +39,19 @@ const Single = ({data}) => {
       <>
         <Header isMobile={isMobile} />
         <div id="car-details">
-          <main>
-            <Infos isMobile={isMobile} data={data}/>
-          </main>
-          {!isMobile ? (
-            <aside>
-              <Galery data={data} />
-            </aside>
-          ) : null}
+          <div className='container'>
+            <main>
+              <Infos isMobile={isMobile} data={details}/>
+            </main>
+            {!isMobile ? (
+              <aside>
+                <Galery data={details} />
+              </aside>
+            ) : null}
+          </div>
         </div>
+        <Optionals info={details}/>
+        <Footer />
       </>
     );
   }

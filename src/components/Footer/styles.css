@@ -1,0 +1,25 @@
+footer {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 40px;
+}
+
+footer .background{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+footer p{
+  color: #FFA52E;
+  font-size: 16px;
+  font-style: italic;
+}

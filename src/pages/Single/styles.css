@@ -1,0 +1,41 @@
+#car-details {
+  background: #F6F6F6;
+  padding-bottom: 80px;
+  padding-top: 140px;
+}
+
+#car-details .container {
+  margin: 0 auto;
+  max-width: 1180px;
+  display: flex;
+  width: 85%;
+  flex-direction: row;
+}
+
+#car-details main{
+  width: 50%;
+}
+
+#car-details aside{
+  width: calc(50% - 16px);
+  margin-left: 16px;
+
+}
+
+@media screen and (max-width: 1000px) {
+  #car-details {
+    padding-top: 100px;
+  }
+  
+  #car-details .container {
+    width: 90%;
+  }
+  
+  #car-details main{
+    width: 100%;
+  }
+  
+  #car-details aside{
+    display: none;
+  }
+}

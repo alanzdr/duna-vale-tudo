@@ -1,0 +1,50 @@
+#galery-slider {
+  cursor: grab;
+  position: relative;
+}
+
+#galery-slider:active {
+  cursor: grabbing;
+}
+
+#galery-slider .photo {
+  width: 100%;
+  padding-top: 75%;
+  position: relative;
+  overflow: hidden;
+}
+
+#galery-slider .photo img {
+  position: absolute;
+  lefT: 50%;
+  top: 50%;
+  height: 100%;
+  max-width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+
+#pictures-thumbs {
+  width: calc(100% + 8px);
+  margin: 0 -4px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+#pictures-thumbs .thumbs {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  left: 0;
+  transition: left 1s ease;
+}
+
+#pictures-thumbs .thumbs .photo {
+  width: calc(25% - 8px);
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+#pictures-thumbs .thumbs .photo img {
+  width: 100%;
+}

@@ -9922,6 +9922,13 @@ tiny-invariant@^1.0.2:
   resolved "https://registry.yarnpkg.com/tiny-invariant/-/tiny-invariant-1.1.0.tgz#634c5f8efdc27714b7f386c35e6760991d230875"
   integrity sha512-ytxQvrb1cPc9WBEI/HSeYYoGD0kWnGEOR8RY6KomWLBVhqz0RgTwVO9dLrGz7dC+nN9llyI7OKAgRq8Vq4ZBSw==
 
+tiny-slider-react@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/tiny-slider-react/-/tiny-slider-react-0.4.0.tgz#48f6bb0048e655fff18a04ec0fdc5a19abfb982b"
+  integrity sha512-ciq/XiltKtnzE8czox/Y54ff7pkeiCQDSWgw6Yw7ZYrzIqPxke0z9hk1lRmtfQKcIpgP4kdCFjwctKdRvhrXSQ==
+  dependencies:
+    ventura-slider "2.9.1"
+
 tiny-warning@^1.0.0, tiny-warning@^1.0.2:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/tiny-warning/-/tiny-warning-1.0.3.tgz#94a30db453df4c643d0fd566060d60a875d84754"
@@ -10281,6 +10288,11 @@ vendors@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/vendors/-/vendors-1.0.4.tgz#e2b800a53e7a29b93506c3cf41100d16c4c4ad8e"
   integrity sha512-/juG65kTL4Cy2su4P8HjtkTxk6VmJDiOPBufWniqQ6wknac6jNiXS9vU+hO3wgusiyqWlzTbVHi0dyJqRONg3w==
+
+ventura-slider@2.9.1:
+  version "2.9.1"
+  resolved "https://registry.yarnpkg.com/ventura-slider/-/ventura-slider-2.9.1.tgz#e1995fe11b37826ae0797937fb31c469697130c7"
+  integrity sha512-qOzJzXryxQObOqgr4LshSFqrVDDm/Ul9TtaW+HiN6I21qKPFS5gQpj/mHLdv32rnZiNgt7zBRhagiQNbsvPV4Q==
 
 verror@1.10.0:
   version "1.10.0"

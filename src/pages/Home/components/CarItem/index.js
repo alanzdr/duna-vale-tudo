@@ -11,7 +11,7 @@ const CarItem = ({info}) => (
       <h3>{info.name.sub}</h3>
     </div>
     <div className="extra">
-      <p>{info.extra}</p>
+      <p className={info.extra.length > 24 ? "bigger" : ""}>{info.extra}</p>
     </div>
     <div className="image">
       <img src={info.data.pics[0]} alt={info.data.name}/>
@@ -20,9 +20,11 @@ const CarItem = ({info}) => (
       <p>1ªParcela para 60 dias</p>
     </div>
     <div className="price">
-      <p className="from">
-        de {info.data.price} por
-      </p>
+      {info.data.price ? (
+        <p className="from">
+          de {info.data.price} por
+        </p>
+      ) : null}
       <p className="to">
         R$
         <strong>{info.promotion}</strong>

@@ -1,12 +1,17 @@
 import React from 'react';
-
-// import { Container } from './styles';
 import { Link } from 'react-router-dom'
+import { useHistory } from 'react-router-dom'
+
 import Header from './components/Header';
 import CarItem from './components/CarItem';
+import Footer from '../../components/Footer';
 import "./styles.css";
 
 const Home = ({data}) => {
+  const history = useHistory();
+  history.listen(() => {
+    window.scrollTo(0, 0);
+  })
   const dataList = Object.keys(data).map(key => ({...data[key], key}))
   return (
     <>
@@ -20,6 +25,7 @@ const Home = ({data}) => {
           ))}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
