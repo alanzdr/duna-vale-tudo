@@ -1,7 +1,7 @@
-import logoPng from '../images/logo.png';
-import logoWebp from '../images/logo.webp';
+import png from '../images/logo.png';
+import webp from '../images/logo.webp';
 
 export default {
-  png: logoPng,
-  webp: logoWebp,
+  png,
+  webp,
 }

@@ -1,49 +1,53 @@
 import React from 'react';
 
-import Countdown from '../../../../components/Countdown'
+import Countdown from '../Countdown'
+import Picture from '../../../../components/Picture'
 
-import Background from '../../../../assets/objects/background';
-import HeaderCars from '../../../../assets/objects/header-cars';
+// Assets
 import Logo from '../../../../assets/objects/logo';
-import WarningIcon from '../../../../assets/icons/warning-bigger.svg';
-
+import Title from '../../../../assets/objects/title'
+import TimeIcon from '../../../../assets/icons/time.svg'
+import VerifiedIcon from '../../../../assets/icons/verified.svg'
+import Background from '../../../../assets/images/header-background.svg'
 import "./styles.css"
 
 const Header = () => {
   return (
     <header id='home-header'>
-      {/* Background */}
-      <picture>
-        <source
-          media="(max-width: 1440px)"
-          type="image/webp"
-          srcSet={Background.webp}
+      <div className="black-header">
+        <Picture
+          src={Logo.png}
+          alt='Feirão Vale Tudo Duna'
+          formats={Logo}
         />
-        <source
-          media="(max-width: 1440px)"
-          type="image/jpeg"
-          srcSet={Background.jpeg}
+      </div>
+      <div id="countdown-container" className='container'>
+        <img 
+          className='header-background'
+          src={Background} 
+          alt="Fundo"
         />
-        <source srcSet={Background.webp2x} type="image/webp"/>
-        <img className='background' src={Background.jpeg2x} alt="Fundo Feirão vale tudo Duna"/>
-      </picture>
-      <picture>
-        <source srcSet={Logo.webp} type="image/webp"/>
-        <img className='logo' src={Logo.png} alt="Feirão vale tudo Duna"/>
-      </picture>
-      <picture>
-        <source srcSet={HeaderCars.webp} type="image/webp"/>
-        <img className='header-cars' src={HeaderCars.png} alt="Vale tudo para fechar negó"/>
-      </picture>
-      <div className="countdown">
-        <div className="text">
-          <img src={WarningIcon} alt="Icone de atenção"/>
-          <p>
-            <strong>Atenção: </strong>
-            Essas ofertas acabam em
-          </p>
+        <div className="title">
+          <Picture
+            src={Title.png}
+            alt='Vale tudo para fechar negócio com você!'
+            formats={Title}
+          />
         </div>
-        <Countdown />
+        <div className="countdown">
+          <h2>
+            <img src={TimeIcon} alt="Icone de tempo"/>
+            Essas ofertas acabam em:
+          </h2>
+          <Countdown />
+          <div className="safety-info">
+            <p className='top'>Compre seu seminovo agora mesmo!</p>
+            <p className='bot'>
+              <img src={VerifiedIcon} alt="Icone de segurança"/>
+              Negociação 100% online e segura
+            </p>
+          </div>
+        </div>
       </div>
     </header>
   )

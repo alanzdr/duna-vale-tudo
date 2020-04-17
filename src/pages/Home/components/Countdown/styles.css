@@ -1,0 +1,33 @@
+#countdown-itens {
+  width: calc(100% + 8px);
+  margin: 18px -4px;
+  display: flex;
+  flex-direction: row;
+}
+
+#countdown-itens .item {
+  width: calc(33.3333% - 8px);
+  margin: 0 4px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #1A0D06;
+}
+
+#countdown-itens .item h3 {
+  margin: 0;
+  font: bold 96px 'Bebas Neue', sans-serif;
+  font-size: 96px;
+  line-height: 78px;
+  color: #fff;
+}
+
+#countdown-itens .item p {
+  line-height: 1;
+  margin: 0;
+  font: bold 24px 'Bebas Neue', sans-serif;
+  color: #F17B00;
+}

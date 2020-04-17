@@ -14,7 +14,7 @@ const Home = ({data}) => {
   })
   const dataList = Object.keys(data).map(key => ({...data[key], key}))
   return (
-    <>
+    <div id='site-content'>
       <Header />
       <div id="cars-container">
         <div className="list">
@@ -26,7 +26,7 @@ const Home = ({data}) => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
