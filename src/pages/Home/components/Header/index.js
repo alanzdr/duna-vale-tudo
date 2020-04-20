@@ -2,9 +2,10 @@ import React from 'react';
 
 import Countdown from '../Countdown'
 import Picture from '../../../../components/Picture'
+import HeaderLogo from '../../../../components/HeaderLogo'
+
 
 // Assets
-import Logo from '../../../../assets/objects/logo';
 import Title from '../../../../assets/objects/title'
 import TimeIcon from '../../../../assets/icons/time.svg'
 import VerifiedIcon from '../../../../assets/icons/verified.svg'
@@ -14,13 +15,7 @@ import "./styles.css"
 const Header = () => {
   return (
     <header id='home-header'>
-      <div className="black-header">
-        <Picture
-          src={Logo.png}
-          alt='Feirão Vale Tudo Duna'
-          formats={Logo}
-        />
-      </div>
+      <HeaderLogo />
       <div id="countdown-container" className='container'>
         <img 
           className='header-background'
@@ -29,9 +24,15 @@ const Header = () => {
         />
         <div className="title">
           <Picture
-            src={Title.png}
+            src={Title.desktop.png}
             alt='Vale tudo para fechar negócio com você!'
-            formats={Title}
+            formats={Title.desktop}
+            sources={[
+              {
+                media: '(max-width: 1000px)',
+                formats: Title.mobile
+              }
+            ]}
           />
         </div>
         <div className="countdown">

@@ -7,32 +7,37 @@
   width: 85%;
   max-width: 1180px;
   margin: 0 auto;
-  margin-top: 132px;
+  margin-top: 24px;
   position: relative;
   z-index: 1;
 }
 
 #cars-container .list{
-  width: calc(100% + 20px);
-  margin: 0 -10px;
+  width: calc(100% + 16px);
+  margin: 0 -8px;
   display: flex;
   flex-wrap: wrap;
 }
 
 #cars-container .list .item {
-  width: calc(33.3333% - 20px);
-  margin: 0 10px;
-  margin-bottom: 20px;
+  width: calc(33.3333% - 16px);
+  margin: 0 8px;
+  margin-bottom: 32px;
 }
 
-@media screen and (max-width: 1000px) {
 
+@media screen and (max-width: 1000px) {
   #cars-container {
     margin-top: 0;
-    transform: translateY(-60px);
     width: 90%;
   }
   
+  #cars-container .list .item {
+    width: calc(50% - 16px);
+  }
+}
+
+@media screen and (max-width: 600px) {
   #cars-container .list{
     width: 100%;
     margin: 0;
@@ -42,6 +47,6 @@
   #cars-container .list .item {
     width: 100%;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
   }
 }

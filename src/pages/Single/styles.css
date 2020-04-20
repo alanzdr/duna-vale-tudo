@@ -1,7 +1,5 @@
 #car-details {
-  background: #F6F6F6;
-  padding-bottom: 80px;
-  padding-top: 140px;
+  padding: 80px 0;
 }
 
 #car-details .container {
@@ -19,12 +17,11 @@
 #car-details aside{
   width: calc(50% - 16px);
   margin-left: 16px;
-
 }
 
 @media screen and (max-width: 1000px) {
   #car-details {
-    padding-top: 100px;
+    padding: 20px 0;
   }
   
   #car-details .container {

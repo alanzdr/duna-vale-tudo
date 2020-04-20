@@ -1,8 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { getWhatsLink } from '../../../../utils/whatsapp'
-import WhatsappLogo from '../../../../assets/icons/whatsapp.svg'
-import WarningLogo from '../../../../assets/icons/warning.svg'
+import WhatsappIcon from '../../../../assets/icons/whatsapp.svg'
+import TimeIcon from '../../../../assets/icons/time.svg'
+import BackIcon from '../../../../assets/icons/back.svg'
 
 import Galery from '../Galery';
 import CountdownText from '../CountdownText';
@@ -25,11 +27,15 @@ const handleWithButtonClick = (eventLabel) => {
   }
 }
 
-const Infos = ( { isMobile, data } ) =>  (
+const Infos = ( { isMobile, data, path } ) =>  (
   <div id='car-details-text'>
+    <Link className='back' to={{pathname: '/', state: { path }}}>
+      <img src={BackIcon} alt="Voltar"/>
+      Voltar para as ofertas
+    </Link>
     <div className='title'>
       <h1>{data.name.main}</h1>
-      <h2>{data.name.sub}</h2>
+      <h2>{`${data.data.year} ${data.name.sub}`}</h2>
     </div>
     {isMobile ? (
       <Galery data={data} />
@@ -50,42 +56,44 @@ const Infos = ( { isMobile, data } ) =>  (
         ,00
       </p>
     </div>
+    <p className="buttons-title">
+      Entre em contato com a concessionária mais próxima de você:
+    </p>
     <div className="buttons-container">
       <a 
-        onClick={handleWithButtonClick} 
+        onClick={() => handleWithButtonClick('Araranguá')} 
         className="button" 
         href={getWhatsLink('5548991835855')} 
         target="_blank" 
         rel="noopener noreferrer"
       >
         <p>Araranguá</p>
-        <img src={WhatsappLogo} alt="Whatsapp logo"/>
+        <img src={WhatsappIcon} alt="Whatsapp logo"/>
       </a>
       <a 
-        onClick={handleWithButtonClick} 
+        onClick={() => handleWithButtonClick('Criciúma')} 
         className="button" 
         href={getWhatsLink('5548991835855')} 
         target="_blank" 
         rel="noopener noreferrer"
       >
         <p>Criciúma</p>
-        <img src={WhatsappLogo} alt="Whatsapp logo"/>
+        <img src={WhatsappIcon} alt="Whatsapp logo"/>
       </a>
       <a 
-        onClick={handleWithButtonClick} 
+        onClick={() => handleWithButtonClick('Tubarão')} 
         className="button" 
         href={getWhatsLink('554836210461')} 
         target="_blank" 
         rel="noopener noreferrer"
       >
         <p>Tubarão</p>
-        <img src={WhatsappLogo} alt="Whatsapp logo"/>
+        <img src={WhatsappIcon} alt="Whatsapp logo"/>
       </a>
     </div>
     <div className="warning">
-      <img src={WarningLogo} alt="Icone de atenção"/>
+      <img src={TimeIcon} alt="Icone de tempo"/>
       <p>
-        <span>Atenção: </span> 
         Essas ofertas são válidas
         <CountdownText />
       </p>

@@ -1,0 +1,15 @@
+#black-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  width: 100%;
+  background: #1A0D06;
+  position: relative;
+  z-index: 1;
+}
+
+#black-header img{
+  width: 260px;
+  max-width: 95%;
+}

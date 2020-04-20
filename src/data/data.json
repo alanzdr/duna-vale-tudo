@@ -9,6 +9,7 @@
     "data" : {
       "name": "Fiat Grand Siena Essence Dualogic 1.6 16V Flex",
       "price": "R$39.900,00",
+      "year": "2015",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -50,6 +51,7 @@
     "data" : {
       "name": "Chevrolet Prisma LT 1.4 mpfi 8V Econo.Flex",
       "price": "R$44.900,00",
+      "year": "2016",
       "opts": [
         "Air bag duplo",
         "Ar condicionado",
@@ -89,6 +91,7 @@
     "data" : {
       "name": "Fiat Punto Essence 1.6 16V Flex",
       "price": "R$44.500,00",
+      "year": "2017",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -133,6 +136,7 @@
     "data" : {
       "name": "Fiat Punto Attractive 1.4 Flex",
       "price": "R$37.900,00",
+      "year": "2014",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -175,6 +179,7 @@
     "data" : {
       "name": "Fiat Palio Attractive Evo 1.0 8V Flex",
       "price": "R$33.900,00",
+      "year": "2015",
       "opts": [
         "Air bag do motorista",
         "Air bag duplo",
@@ -214,6 +219,7 @@
     "data" : {
       "name": "Chevrolet Tracker PREMIER 1.4 TURBO  153 CV",
       "price": "R$88.900,00",
+      "year": "2018",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -265,6 +271,7 @@
     },
     "data" : {
       "name": "Fiat Argo 1.0 Flex",
+      "year": "2019",
       "opts": [
         "Air bag do motorista",
         "Air bag duplo",
@@ -305,6 +312,7 @@
     },
     "data" : {
       "name": "Fiat Toro Volcano 2.0 16v AT9 Diesel",
+      "year": "2019",
       "opts": [
         "Air bag do motorista",
         "Air bag duplo",
@@ -363,6 +371,7 @@
     },
     "data" : {
       "name": "Fiat Palio Attractive 1.0 8V Flex",
+      "year": "2014",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -401,6 +410,7 @@
     },
     "data" : {
       "name": "Fiat Grand Siena Attractive 1.4 EVO Flex",
+      "year": "2017",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -440,6 +450,7 @@
     },
     "data" : {
       "name": "Renault Duster Dynamique 2.0 16V Hi-Flex",
+      "year": "2015",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -486,6 +497,7 @@
     },
     "data" : {
       "name": "Fiat Uno Way 1.0 Flex",
+      "year": "2019",
       "opts": [
         "Air bag duplo",
         "Ar condicionado",
@@ -522,6 +534,7 @@
     },
     "data" : {
       "name": "Fiat Strada Working 1.4 MPI 8V Flex",
+      "year": "2017",
       "opts": [
         "Air bag duplo",
         "Ar condicionado",
@@ -545,13 +558,14 @@
 
   "chevrolet-montana-ls-1-4-mpfi-8v-econo-flex": {
     "promotion" : "38.900",
-    "extra" : "único dono/ direção hidraulica/ veiculo revisado",
+    "extra" : "único dono / direção hidraulica / veiculo revisado",
     "name" : {
       "main": "Chevrolet Montana Ls",
       "sub": "1.4 Mpfi 8v Econo.Flex"
     },
     "data" : {
       "name": "Chevrolet Montana LS 1.4 mpfi 8V Econo.Flex",
+      "year": "2018",
       "opts": [
         "Air bag do motorista",
         "Air bag duplo",
@@ -584,6 +598,7 @@
     },
     "data" : {
       "name": "Fiat Grand Siena Essence 1.6 16V Flex",
+      "year": "2015",
       "price": "R$41.900,00",
       "opts": [
         "Air bag duplo",
@@ -625,6 +640,7 @@
     "data" : {
       "name": "Fiat Palio Weekend Adventure 1.8 16V Flex",
       "price": "R$46.900,00",
+      "year": "2016",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -665,6 +681,7 @@
     "data" : {
       "name": "Chevrolet Spin LT 1.8 8V Econo.flex",
       "price": "R$48.900,00",
+      "year": "2017",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -707,6 +724,7 @@
     "data" : {
       "name": "Fiat Siena EL 1.0 8V Flex",
       "price": "R$35.900,00",
+      "year": "2015",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -741,6 +759,7 @@
     "data" : {
       "name": "Fiat Doblò Adventure 1.8 16V Flex",
       "price": "R$49.900,00",
+      "year": "2013",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -783,6 +802,7 @@
     "data" : {
       "name": "Renault Duster Oroch Dynamique 1.6 16V",
       "price": "R$61.900,00",
+      "year": "2017",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -826,6 +846,7 @@
     "data" : {
       "name": "Volkswagen Fox Trendline 1.0 Total Flex",
       "price": "R$34.900,00",
+      "year": "2015",
       "opts": [
         "Air bag duplo",
         "Alarme",
@@ -863,6 +884,7 @@
     "data" : {
       "name": "Fiat Uno Way 1.0 8V Flex",
       "price": "R$46.900,00",
+      "year": "2019",
       "opts": [
         "Air bag do motorista",
         "Ar condicionado",
@@ -900,6 +922,7 @@
     "data" : {
       "name": "Lifan X60 VVT VIP 1.8 16V",
       "price": "R$44.900,00",
+      "year": "2016",
       "opts": [
         "Air bag duplo",
         "Alarme",

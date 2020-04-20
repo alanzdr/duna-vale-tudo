@@ -6,17 +6,6 @@
   position: relative;
 }
 
-#home-header .black-header{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 95px;
-  width: 100%;
-  background: #1A0D06;
-  position: relative;
-  z-index: 1;
-}
-
 #home-header #countdown-container {
   display: flex;
   align-items: center;
@@ -92,4 +81,84 @@
 #home-header #countdown-container .safety-info .bot img{
   margin-right: 6px;
   transform: translateY(-2px);
+}
+
+
+@media screen and (max-width: 1000px) {
+  /* #home-header {
+    position: relative;
+    width: 100%;
+    overflow-y: visible;
+    position: relative;
+  } */
+  
+  #home-header #countdown-container {
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 24px 0;
+    flex-direction: column;
+  }
+  
+  #home-header #countdown-container .header-background{
+    display: none;
+  }
+  
+  #home-header #countdown-container .title{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  #home-header #countdown-container .countdown {
+    width: 100%;
+    margin-top: 24px;
+  }
+  
+  #home-header #countdown-container .countdown h2 {
+    text-align: center;
+    justify-content: center;
+    font: bold 24px 'Bebas Neue', sans-serif;
+  }
+  
+  #home-header #countdown-container .countdown h2 img{
+    margin-right: 8px;
+    width: 24px;
+    transform: translateY(-3px);
+  }
+  
+  #home-header #countdown-container .safety-info{
+    height: 72px;
+    padding-left: 23px;
+    border-left: 2px solid #F17B00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #home-header #countdown-container .safety-info .top{
+    font-size: 16px;
+    font-weight: 900;
+    color: #6D605A;
+    margin: 0;
+  }
+  
+  #home-header #countdown-container .safety-info .bot{
+    font-size: 16px;
+    font-weight: 900;
+    color: #F17B00;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    margin-top: 4px;
+  }
+  
+  #home-header #countdown-container .safety-info .bot img{
+    margin-right: 6px;
+    transform: translateY(-2px);
+  }
+  
 }

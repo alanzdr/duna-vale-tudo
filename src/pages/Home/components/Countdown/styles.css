@@ -31,3 +31,20 @@
   font: bold 24px 'Bebas Neue', sans-serif;
   color: #F17B00;
 }
+
+
+@media screen and (max-width: 1000px) {
+  #countdown-itens .item {
+    height: 108px;
+  }
+
+  #countdown-itens .item h3 {
+    font: bold 64px 'Bebas Neue', sans-serif;
+    line-height: 64px;
+  }
+  
+  #countdown-itens .item p {
+    font: bold 16px 'Bebas Neue', sans-serif;
+  }
+  
+}
