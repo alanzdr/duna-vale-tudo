@@ -70,7 +70,7 @@
 .car-box .price{
   padding-top: 32px;
   padding-bottom: 12px;
-  /* height: 140px; */
+  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -5,7 +5,10 @@ import React from 'react';
 import "./styles.css";
 
 const capitalize = (str) => {
-  var splitStr = str.toLowerCase().split(' ');
+  if (Array.isArray(str)) {
+    return str.join(' | ');
+  }
+  const splitStr = str.toLowerCase().split(' ');
   return splitStr.map((val) => {
     if (val.length > 2) {
       return val.charAt(0).toUpperCase() + val.substring(1);

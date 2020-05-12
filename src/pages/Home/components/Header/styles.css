@@ -30,6 +30,11 @@
   z-index: 1;
 }
 
+#home-header #countdown-container .title img{
+  width: 475px;
+  max-width: 100%;
+}
+
 #home-header #countdown-container .countdown {
   width: calc(50% - 32px);
   margin-left: auto;
