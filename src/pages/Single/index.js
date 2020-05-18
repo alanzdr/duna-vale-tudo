@@ -13,10 +13,6 @@ const Single = ( { data } ) => {
   const history = useHistory();
   const [details, setDetails] = useState();
   const [isMobile, setIfIsMobile] = useState();
-
-  // history.listen(() => {
-  //   window.scrollTo(0, 0);
-  // })
   
   useEffect(() => {
     window.scrollTo(0, 0);
