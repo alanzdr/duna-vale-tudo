@@ -6,12 +6,14 @@ const TRACKING_ID = 'UA-127174063-2';
 
 export const useAnalytics = () => {
   const analytics = useMemo(() => {
-    const initialize = () => {
-      Analytics.initialize(TRACKING_ID);
-    };
-
+    
     const pageview = () => {
       Analytics.pageview(window.location.pathname);
+    };
+    
+    const initialize = () => {
+      Analytics.initialize(TRACKING_ID);
+      pageview();
     };
 
     const sendEvent = (props) => {
@@ -45,6 +47,7 @@ const AnalyticsContainer = ({children}) => {
 
   useEffect(() => {
     analytics.initialize()
+    console.log('analytics.initialize()')
   }, [analytics])
 
   useEffect(() => {
