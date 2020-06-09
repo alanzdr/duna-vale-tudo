@@ -6,6 +6,7 @@ const Countdown = () => {
   const {days, hours, minutes, seconds} = useCountdown();
   
   const convertTime = (time) => {
+    if (time < 0) return '00';
     if (time < 10) return `0${time}`;
     return time; 
   }

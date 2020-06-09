@@ -1,9 +1,8 @@
 import React, { useEffect } from 'react';
-import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
 
 import Header from './components/Header';
-import CarItem from './components/CarItem';
+import Car from './components/Car';
 import Footer from '../../components/Footer';
 import "./styles.css";
 
@@ -25,19 +24,19 @@ const Home = ({data}) => {
   return (
     <div id='site-content'>
       <Header />
-      <div id="cars-container">
+      <section className="interval-container">
+        <h2>primeira parcela para 90 dias!</h2>
+        <p>taxa de 0,55%</p>
+      </section>
+      <section id="cars-container">
         <div className="list">
           {dataList.map(car => (
-            <Link
-              to={`/${car.key}`} 
-              key={car.key} 
-              className={`item ${car.key}`}
-            >
-              <CarItem info={car} />
-            </Link>
+            <React.Fragment key={car.key}>
+              <Car info={car} />
+            </React.Fragment>
           ))}
         </div>
-      </div>
+      </section>
       <Footer />
     </div>
   );

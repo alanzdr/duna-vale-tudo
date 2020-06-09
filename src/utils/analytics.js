@@ -1,65 +1,78 @@
-import { useMemo, useEffect } from 'react';
+import React, {
+  createContext,  
+  useEffect,
+  useContext,
+  useCallback,
+} from 'react';
 import { useHistory } from 'react-router-dom';
 import Analytics from 'react-ga';
 
 const TRACKING_ID = 'UA-127174063-2';
 
-export const useAnalytics = () => {
-  const analytics = useMemo(() => {
-    
-    const pageview = () => {
-      Analytics.pageview(window.location.pathname);
-    };
-    
-    const initialize = () => {
-      Analytics.initialize(TRACKING_ID);
-      pageview();
-    };
+export const AnalyticsContext = createContext({});
 
-    const sendEvent = (props) => {
-      Analytics.event(props);
-    };
-
-    const sendWhastEvent = (label) => {
-      sendEvent({
-        category: 'feirao-vale-tudo',
-        action: `click`,
-        label,
-      });
-    };
-
-    return {
-      setPageview: pageview,
-      initialize,
-      event: {
-        send: sendEvent,
-        whatsapp: sendWhastEvent,
-      },
-    };
-  }, []);
-
-  return analytics;
-};
-
-const AnalyticsContainer = ({children}) => {
-  const analytics = useAnalytics()
+const Provider = ({ children }) => {
   const history = useHistory()
 
+  const pageview = useCallback(() => {
+    console.log('pageView');
+    Analytics.pageview(window.location.pathname);
+  }, [])
+
+  const initialize = useCallback(() => {
+    console.log('init');
+    Analytics.initialize(TRACKING_ID);
+  }, [])
+
+  const sendEvent = useCallback((props) => {
+    console.log('send event');
+    Analytics.event(props);
+  }, [])
+
+  const sendWhastEvent = useCallback((label) => {
+    console.log('send event', 'whatsapp');
+    // sendEvent({
+    //   category: 'feirao-vale-tudo',
+    //   action: `click`,
+    //   label,
+    // });
+  }, [])
+
+  const value = {
+    setPageview: pageview,
+    initialize,
+    event: {
+      send: sendEvent,
+      whatsapp: sendWhastEvent,
+    },
+  };
+
   useEffect(() => {
-    analytics.initialize()
-    console.log('analytics.initialize()')
-  }, [analytics])
+    initialize()
+    pageview()
+  }, [initialize, pageview])
 
   useEffect(() => {
     const unregisterListen = history.listen(() => {
-      analytics.setPageview();
+      pageview();
     })
     return () => {
       unregisterListen();
     }
-  }, [analytics, history])
+  }, [history, pageview])
 
-  return children;
+  return (
+    <AnalyticsContext.Provider
+      value={value}
+    >
+      {children}
+    </AnalyticsContext.Provider>
+  );
 }
 
-export default AnalyticsContainer;
+export const useAnalytics = () => {
+  const values = useContext(AnalyticsContext);
+  return values;
+}
+
+export default Provider;

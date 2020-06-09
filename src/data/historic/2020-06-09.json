@@ -1,0 +1,1121 @@
+{
+  "fiat-siena-el-1-0-flex": {
+    "promotion" : "28.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Baixa KM"
+    ],
+    "name" : {
+      "main": "Fiat Siena",
+      "sub": "El 1.0 Flex"
+    },
+    "data" : {
+      "name": "Fiat Siena EL 1.0 Flex",
+      "year": "2014",
+      "price": "R$29.900,00",
+      "opts": [
+        "Air bag duplo",
+        "Ar condicionado",
+        "Ar quente",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Freio ABS",
+        "Porta-copos",
+        "Travas elétricas",
+        "Vidros elétricos"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/6/962_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/955_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/956_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/957_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/958_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/959_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/963_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/960_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/961_0.jpg"
+      ]
+    }
+  },
+
+  "chevrolet-prisma-lt-1-4-mpfi-8v-econo-flex-2": {
+    "promotion" : "47.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Único Dono"
+    ],
+    "name" : {
+      "main": "Chevrolet Prisma",
+      "sub": "Lt 1.4 Mpfi 8v Econo. Flex"
+    },
+    "data" : {
+      "name": "Chevrolet Prisma LT 1.4 mpfi 8V Econo.Flex",
+      "year": "2018",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Bancos com ajuste de altura",
+        "Bluetooth",
+        "Comando de áudio e volante no telefone",
+        "Computador de bordo",
+        "Conexão USB",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Para-choques na cor do veículo",
+        "Porta-copos",
+        "Rádio",
+        "Sensor de estacionamento",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2432_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2424_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2425_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2426_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2427_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2428_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2429_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2430_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2431_0.jpg"
+      ]
+    }
+  },
+  
+  "hyundai-tucson-gls-2-0-flex": {
+    "promotion" : "27.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Licenciado"
+    ],
+    "name" : {
+      "main": "Hyundai Tucson",
+      "sub": "Gls 4x2 2wd 2.0 Mpfi 16v"
+    },
+    "data" : {
+      "name": "Hyundai Tucson GLS 4X2 2WD 2.0 Mpfi 16V",
+      "year": "2010",
+      "price": "R$29.900,00",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado digital",
+        "Ar quente",
+        "Banco traseiro bipartido",
+        "Bancos com ajuste de altura",
+        "Bancos de couro",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "MP3 Player",
+        "Para-choques na cor do veículo",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Sensor de estacionamento",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2355_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2346_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2347_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2348_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2349_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2350_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2351_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2352_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2353_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2354_0.jpg"
+      ]
+    }
+  },
+
+  "chevrolet-meriva-maxx-1-4-mpfi-8v-econo-flex": {
+    "promotion" : "19.000",
+    "extra" : [
+      "Tanque Cheio"
+    ],
+    "name" : {
+      "main": "Chevrolet Meriva Maxx",
+      "sub": "1.4 Mpfi 8v Econo.Flex"
+    },
+    "data" : {
+      "name": "Chevrolet Meriva Maxx 1.4 Mpfi 8V Econo.flex",
+      "year": "2009",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Banco traseiro bipartido",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Travas elétricas",
+        "Vidros elétricos"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2151_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2150_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2149_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2152_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2153_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2154_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2155_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2156_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-grand-siena-attractive-1-4-evo-flex": {
+    "promotion" : "38.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Grand Siena",
+      "sub": "Attractive 1.4 Evo Flex"
+    },
+    "data" : {
+      "name": "Fiat Grand Siena Attractive 1.4 EVO Flex",
+      "year": "2017",
+      "price": "R$39.900,00",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Porta-copos",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1017_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1010_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1011_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1012_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1013_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1014_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1015_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1016_0.jpg"
+      ]
+    }
+  },
+  
+  "chevrolet-spin-lt-1-8-8v-econo-flex": {
+    "promotion" : "45.000",
+    "extra" : [
+      "Abaixo da FIPE",
+      "Baixa HM"
+    ],
+    "name" : {
+      "main": "Chevrolet Spin",
+      "sub": "Lt 1.8 8v Econo.Flex"
+    },
+    "data" : {
+      "name": "Chevrolet Spin LT 1.8 8V Econo.flex",
+      "year": "2017",
+      "price": "R$45.000,00",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Banco traseiro bipartido",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção elétrica",
+        "Encosto de cabeça traseiro",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Rodas de liga-leve",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1755_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/377_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/379_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/380_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/381_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/382_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/378_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/383_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-idea-essence-dualogic-1-6-16v-flex": {
+    "promotion" : "27.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Baixa HM"
+    ],
+    "name" : {
+      "main": "Fiat Idea Essence",
+      "sub": "Dualogic 1.6 16v Flex"
+    },
+    "data" : {
+      "name": "Fiat Idea Essence Dualogic 1.6 16V Flex",
+      "year": "2012",
+      "price": "R$28.500,00",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Banco traseiro bipartido",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2374_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2365_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2366_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2367_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2368_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2369_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2370_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2371_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2372_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2373_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-palio-attractive-1-0-8v-flex-2": {
+    "promotion" : "28.500",
+    "extra" : [
+      "Tanque Cheio",
+      "Baixa HM"
+    ],
+    "name" : {
+      "main": "Fiat Palio",
+      "sub": "Attractive 1.0 8v Flex"
+    },
+    "data" : {
+      "name": "Fiat Palio Attractive 1.0 8V Flex",
+      "year": "2014",
+      "price": "R$33.900,00",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1464_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1463_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1465_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1468_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1466_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1467_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1470_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1469_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-toro-volcano-2-0-16v-at9-diesel-6": {
+    "promotion" : "94.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Toro Volcano",
+      "sub": "2.0 16v At9 Diesel"
+    },
+    "data" : {
+      "name": "Fiat Toro Volcano 2.0 16v AT9 Diesel",
+      "year": "2017",
+      "price": "R$95.900,00",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado digital",
+        "Ar quente",
+        "Camera de ré",
+        "Capota marítima",
+        "Comando de áudio e telefone no volante",
+        "Computador de bordo",
+        "Conexão USB",
+        "Controle de estabilidade",
+        "Controle de tração",
+        "Controle de velocidade",
+        "Controle eletrônico de estabilidade",
+        "Desembaçador traseiro",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Kit Multimídia",
+        "Navegador GPS",
+        "Porta-copos",
+        "Protetor de caçamba",
+        "Retrovisor fotocrômico",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Sensor de chuva",
+        "Sensor de estacionamento",
+        "Travas elétricas",
+        "Tração 4x4",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1648_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1652_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1651_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1650_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1653_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1657_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1656_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1654_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1649_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1658_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1655_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1659_0.jpg"
+      ]
+    }
+  },
+
+  "nissan-frontier-le-4x4-cabine-dupla-2-5-turbo-eletronic": {
+    "promotion" : "83.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Nissan Frontier Le 4x4",
+      "sub": "Cabine Dupla 2.5 Turbo Eletronic"
+    },
+    "data" : {
+      "name": "Nissan Frontier LE 4X4 Cabine Dupla 2.5 Turbo Eletronic",
+      "year": "2015",
+      "price": "R$85.900,00",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Capota marítima",
+        "Computador de bordo",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Kit Multimídia",
+        "Para-choques na cor do veículo",
+        "Porta-copos",
+        "Protetor de caçamba",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1793_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1794_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1795_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1796_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1797_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1800_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1798_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1799_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/11/1801_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-siena-essence-dualogic-1-6-16v-flex": {
+    "promotion" : "36.900",
+    "extra" : [
+      "Abaixo da FIPE",
+      "Licenciado"
+    ],
+    "name" : {
+      "main": "Fiat Grand Siena",
+      "sub": "Essence Dualogic 1.6 16v Flex"
+    },
+    "data" : {
+      "name": "Fiat Grand Siena. Essence Dualogic 1.6 16V Flex",
+      "year": "2016",
+      "price": "R$38.900,00",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Computador de bordo",
+        "Câmbio Borboleta",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Porta-copos",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1683_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1684_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1686_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1687_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1685_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1688_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1691_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1689_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1682_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1690_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1692_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-doblo-adventure-xingu-1-8-mpi-16v-flex": {
+    "promotion" : "43.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Doblò Adventure",
+      "sub": "Xingu 1.8 Mpi 16v Flex"
+    },
+    "data" : {
+      "name": "Fiat Doblò Adventure Xingu 1.8 MPI 16v Flex",
+      "year": "2013",
+      "price": "R$44.900,00",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Ar condicionado",
+        "Ar quente",
+        "DVD",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1571_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1563_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1564_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1565_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1562_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1566_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1570_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1568_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1567_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1572_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1569_0.jpg"
+      ]
+    }
+  },
+
+  "chevrolet-tracker-premier-1-4-turbo-153-cv-2": {
+    "promotion" : "93.000",
+    "extra" : [
+      "Baixa KM",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Chevrolet Tracker Premier",
+      "sub": "1.4 Turbo 153 Cv"
+    },
+    "data" : {
+      "name": "Chevrolet Tracker PREMIER 1.4 TURBO  153 CV",
+      "year": "2019",
+      "price": "R$97.900,00",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Banco traseiro bipartido",
+        "Bancos com ajuste de altura",
+        "Bancos de couro",
+        "Computador de bordo",
+        "Controle de tração",
+        "Controle de velocidade",
+        "Desembaçador traseiro",
+        "Direção elétrica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Sensor de estacionamento",
+        "Teto solar",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/6/990_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/991_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/992_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/994_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/995_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/997_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/998_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1000_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/999_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/993_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/6/1001_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-uno-way-1-0-8v-flex": {
+    "promotion" : "40.500",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Uno Way",
+      "sub": "1.0 8v Flex"
+    },
+    "data" : {
+      "name": "Fiat Uno Way 1.0 8V Flex",
+      "year": "2019",
+      "price": "R$44.900,00",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Ar condicionado",
+        "Ar quente",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção elétrica",
+        "Encosto de cabeça traseiro",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Rádio",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1592_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1593_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1598_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/9/1594_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1595_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1596_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1597_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/10/1599_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-cronos-drive-1-3-flex-2": {
+    "promotion" : "53.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Cronos",
+      "sub": "Drive 1.3 Flex"
+    },
+    "data" : {
+      "name": "Fiat Cronos Drive 1.3 Flex",
+      "year": "2019",
+      "price": "R$56.900,00",
+      "opts": [
+        "Air bag duplo",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção elétrica",
+        "Encosto de cabeça traseiro",
+        "Freio ABS",
+        "Porta-copos",
+        "Sensor de estacionamento",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/3/454_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/452_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/453_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/455_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/456_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/457_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/458_0.jpg"
+      ]
+    }
+  },
+
+  "renault-duster-dynamique-1-6-16v-hi-flex": {
+    "promotion" : "53.000",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Renault Duster Dynamique",
+      "sub": "1.6 16v Hi-Flex"
+    },
+    "data" : {
+      "name": "Renault Duster Dynamique 1.6 16V Hi-Flex",
+      "year": "2017",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Kit gás natural",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2476_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2477_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2478_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2479_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2480_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2481_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2482_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2483_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2484_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-uno-way-1-4-8v-flex": {
+    "promotion" : "27.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Uno Way",
+      "sub": "1.4 8v Flex"
+    },
+    "data" : {
+      "name": "Fiat Uno Way 1.4 8V Flex",
+      "year": "2012",
+      "opts": [
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2228_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2220_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2221_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2222_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2223_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2224_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2225_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2226_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2227_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-palio-sporting-1-6-16v-flex-3": {
+    "promotion" : "32.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Palio Sporting",
+      "sub": "1.6 16v Flex"
+    },
+    "data" : {
+      "name": "Fiat Palio Sporting 1.6 16V Flex",
+      "year": "2013",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Bluetooth",
+        "Comando de áudio e telefone no volante",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "MP3 Player",
+        "Porta-copos",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2218_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2210_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2211_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2212_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2213_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2214_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2219_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2215_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2216_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/13/2217_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-mobi-easy-1-0-flex": {
+    "promotion" : "28.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Mobi Easy",
+      "sub": "1.0 Flex"
+    },
+    "data" : {
+      "name": "Fiat Mobi Easy 1.0 Flex",
+      "year": "2017",
+      "opts": [
+        "Air bag do motorista",
+        "Air bag duplo",
+        "Alarme",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Encosto de cabeça traseiro",
+        "Freio ABS",
+        "Para-choques na cor do veículo",
+        "Porta-copos",
+        "Rádio",
+        "Travas elétricas"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2270_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2263_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2264_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2265_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2266_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2267_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2268_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/14/2269_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-punto-elx-1-4-8v-flex": {
+    "promotion" : "22.900",
+    "extra" : [
+      "Tanque Cheio",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Punto",
+      "sub": "Elx 1.4 8v Flex"
+    },
+    "data" : {
+      "name": "Fiat Punto ELX 1.4 8V Flex",
+      "year": "2009",
+      "price": "R$22.900,00",
+      "opts": [
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção hidráulica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Limpador traseiro",
+        "MP3 Player",
+        "Para-choques na cor do veículo",
+        "Rodas de liga-leve",
+        "Rádio e CD Player",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2449_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2441_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2442_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2443_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2444_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2445_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2446_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2447_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/15/2448_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-argo-drive-1-3-flex-3": {
+    "promotion" : "55.900",
+    "extra" : [
+      "IPVA PAGO",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Argo Drive",
+      "sub": "1.3 Flex"
+    },
+    "data" : {
+      "name": "Fiat Argo Drive 1.3 Flex",
+      "year": "2019",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Comando de áudio e telefone no volante ",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção elétrica",
+        "Distribuição eletrônica de frenagem",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Kit multimídia ",
+        "Limpador traseiro",
+        "Para-choques na cor do veículo",
+        "Porta-copos",
+        "Rodas de liga-leve",
+        "Sensor de estacionamento",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1934_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1933_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1936_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1935_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1938_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1937_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1940_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1939_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1942_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/12/1941_0.jpg"
+      ]
+    }
+  },
+
+  "fiat-toro-volcano-2-0-16v-at9-diesel-2": {
+    "promotion" : "115.900",
+    "extra" : [
+      "TEST DRIVE",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Fiat Toro Volcano",
+      "sub": "2.0 16v At9 Diesel"
+    },
+    "data" : {
+      "name": "Fiat Toro Volcano 2.0 16v AT9 Diesel",
+      "year": "2019",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado digital",
+        "Ar quente",
+        "Bancos com ajuste de altura",
+        "Bluetooth",
+        "Capota marítima",
+        "Computador de bordo",
+        "Conexão USB",
+        "Controle de estabilidade",
+        "Controle de tração",
+        "Controle de velocidade",
+        "Direção elétrica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Navegador GPS",
+        "Protetor de caçamba",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Sensor de chuva",
+        "Sensor de estacionamento",
+        "Travas elétricas",
+        "Tração 4x4",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/2/302_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/303_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/304_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/305_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/306_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/307_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/308_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/2/309_0.jpg"
+      ]
+    }
+  },
+
+  "chevrolet-tracker-premier-1-4-turbo-153-cv": {
+    "promotion" : "88.900",
+    "extra" : [
+      "IPVA PAGO",
+      "Revisado"
+    ],
+    "name" : {
+      "main": "Chevrolet Tracker Premier",
+      "sub": "1.4 Turbo 153 Cv"
+    },
+    "data" : {
+      "name": "Chevrolet Tracker PREMIER 1.4 TURBO  153 CV",
+      "year": "2018",
+      "opts": [
+        "Air bag duplo",
+        "Alarme",
+        "Ar condicionado",
+        "Ar quente",
+        "Banco traseiro bipartido",
+        "Bancos com ajuste de altura",
+        "Bancos de couro",
+        "Computador de bordo",
+        "Desembaçador traseiro",
+        "Direção elétrica",
+        "Encosto de cabeça traseiro",
+        "Faróis de neblina",
+        "Freio ABS",
+        "Limpador traseiro",
+        "Porta-copos",
+        "Retrovisor fotocrômico",
+        "Retrovisores elétricos",
+        "Rodas de liga-leve",
+        "Sensor de estacionamento",
+        "Teto solar",
+        "Travas elétricas",
+        "Vidros elétricos",
+        "Volante com regulagem de altura"
+      ],
+      "pics": [
+        "http://www.brdealer.com.br/web/images/B1263/1/3/542_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/543_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/544_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/545_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/546_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/547_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/548_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/549_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/550_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/551_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/552_0.jpg",
+        "http://www.brdealer.com.br/web/images/B1263/1/3/553_0.jpg"
+      ]
+    }
+  }
+
+}

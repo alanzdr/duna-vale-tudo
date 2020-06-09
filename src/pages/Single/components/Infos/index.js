@@ -21,13 +21,6 @@ const Infos = ( { isMobile, data, path } ) =>  {
     }
   }
   
-  const showExtras = (str) => {
-    if (Array.isArray(str)) {
-      return str.join(' | ');
-    }
-    return str.toLowerCase();
-  }
-  
   return (
     <div id='car-details-text'>
       <Link className='back' to={{pathname: '/', state: { path }}}>
@@ -42,8 +35,8 @@ const Infos = ( { isMobile, data, path } ) =>  {
         <Galery data={data} />
       ) : null}
       <div className="extras">
-        <p className="installment">1ª Parcela para 60 dias</p>
-        <p className="extra-box">{showExtras(data.extra)}</p>
+        <p className="installment">1ª Parcela para 90 dias</p>
+        <p className="extra-box">taxas de 0,55%</p>
       </div>
       <div className="price">
         {data.data.price ? (
