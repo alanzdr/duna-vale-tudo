@@ -3,7 +3,9 @@ import { useLocation } from 'react-router-dom'
 
 import Header from './components/Header';
 import Car from './components/Car';
+import SectionBreak from './components/SectionBreak';
 import Footer from '../../components/Footer';
+
 import "./styles.css";
 
 const Home = ({data}) => {
@@ -24,10 +26,7 @@ const Home = ({data}) => {
   return (
     <div id='site-content'>
       <Header />
-      <section className="interval-container">
-        <h2>primeira parcela para 90 dias!</h2>
-        <p>taxa de 0,55%</p>
-      </section>
+      <SectionBreak />
       <section id="cars-container">
         <div className="list">
           {dataList.map(car => (

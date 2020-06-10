@@ -11,7 +11,7 @@ import Galery from '../Galery';
 import CountdownText from '../CountdownText';
 import './styles.css';
 
-const Infos = ( { isMobile, data, path } ) =>  {
+const Infos = ( { isMobile, car, path } ) =>  {
   const analytics = useAnalytics();
 
   const handleWithButtonClick = (eventLabel) => {
@@ -28,25 +28,27 @@ const Infos = ( { isMobile, data, path } ) =>  {
         Voltar para as ofertas
       </Link>
       <div className='title'>
-        <h1>{data.name.main}</h1>
-        <h2>{`${data.data.year} ${data.name.sub}`}</h2>
+        <h1>{car.name.main}</h1>
+        <h2>{`${car.data.year} ${car.name.sub}`}</h2>
       </div>
       {isMobile ? (
-        <Galery data={data} />
+        <Galery data={car} />
       ) : null}
       <div className="extras">
         <p className="installment">1ª Parcela para 90 dias</p>
-        <p className="extra-box">taxas de 0,55%</p>
+        {car.data.year && Number(car.data.year) > 2016 && (
+          <p className="extra-box">taxas de 0,55%</p>
+        )}
       </div>
       <div className="price">
-        {data.data.price ? (
+        {car.data.price ? (
           <p className="from">
-            de {data.data.price} por apenas
+            de {car.data.price} por apenas
           </p>
         ) : null}
         <p className="to">
           R$
-          <strong>{data.promotion}</strong>
+          <strong>{car.promotion}</strong>
           ,00
         </p>
       </div>

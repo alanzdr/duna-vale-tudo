@@ -48,7 +48,7 @@ const Single = ( { data } ) => {
               <Infos 
                 path={path}
                 isMobile={isMobile} 
-                data={details}
+                car={details}
               />
             </main>
             {!isMobile ? (

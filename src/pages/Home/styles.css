@@ -3,29 +3,7 @@
   overflow-x: hidden;
 }
 
-#site-content .interval-container{
-  width: 85%;
-  max-width: 1180px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
 
-#site-content .interval-container h2{
-  font-size: 40px;
-  color: #1A0D06;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-#site-content .interval-container p{
-  font-size: 40px;
-  color: #FF3400;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-family: 'Bebas Neue', sans-serif;
-}
 
 #cars-container {
   width: 85%;
@@ -58,16 +36,6 @@
   
   #cars-container .list .item {
     width: calc(50% - 16px);
-  }
-
-  #site-content .interval-container{
-    flex-direction: column;
-    text-align: center;
-    margin-bottom: 16px;
-  }
-
-  #site-content .interval-container h2{
-    font-size: 32px;
   }
 }
 

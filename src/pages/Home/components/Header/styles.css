@@ -15,15 +15,16 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-52%, -60%);
   z-index: 0;
-  width: 145%;
+  width: 155%;
+  pointer-events: none;
 }
 
 #home-header #countdown-container .title{
   width: calc(50% - 32px);
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   position: relative;
   z-index: 1;
