@@ -30,13 +30,13 @@ const Provider = ({ children }) => {
   }, [])
 
   const sendWhastEvent = useCallback((label) => {
-    console.log('send event', 'whatsapp');
-    // sendEvent({
-    //   category: 'feirao-vale-tudo',
-    //   action: `click`,
-    //   label,
-    // });
-  }, [])
+    // console.log('send event', 'whatsapp');
+    sendEvent({
+      category: 'feirao-vale-tudo',
+      action: `click`,
+      label,
+    });
+  }, [sendEvent])
 
   const value = {
     setPageview: pageview,
