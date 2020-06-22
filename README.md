@@ -13,21 +13,21 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=ff7e27&labelColor=000000">
 </p>
 
-## Why
+## 🤔 Why
 
 The consesionaria needed a fixed page to sell some cars in stock at a fair
 
-## What is
+## ✈ What is
 
 The project was developed to read a car data json file and create a catalog page, where the user could also browse among the cars and click on a button to contact a seller by whatsapp
 
-## Technology
+## 🚀 Technology
 
 *As main tools, were used:*
 
 - [React](https://reactjs.org/) to the all web front end
 - [Moment.js](https://momentjs.com/) for all dates and times codes
-- [tiny-slider-react](https://github.com/jechav/tiny-slider-react) for cars image slider
+- [Tiny Slider - React](https://github.com/jechav/tiny-slider-react) for cars image slider
 
 ## :memo: License
 
