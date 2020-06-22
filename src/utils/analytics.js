@@ -15,22 +15,18 @@ const Provider = ({ children }) => {
   const history = useHistory()
 
   const pageview = useCallback(() => {
-    console.log('pageView');
     Analytics.pageview(window.location.pathname);
   }, [])
 
   const initialize = useCallback(() => {
-    console.log('init');
     Analytics.initialize(TRACKING_ID);
   }, [])
 
   const sendEvent = useCallback((props) => {
-    console.log('send event');
     Analytics.event(props);
   }, [])
 
   const sendWhastEvent = useCallback((label) => {
-    // console.log('send event', 'whatsapp');
     sendEvent({
       category: 'feirao-vale-tudo',
       action: `click`,
