@@ -21,6 +21,10 @@ The consesionaria needed a fixed page to sell some cars in stock at a fair
 
 The project was developed to read a car data json file and create a catalog page, where the user could also browse among the cars and click on a button to contact a seller by whatsapp
 
+<p align="center">
+  <img alt="Prints" src=".github/prints.jpg" width="100%">
+</p>
+
 ## 🚀 Technology
 
 *As main tools, were used:*
