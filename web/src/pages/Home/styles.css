@@ -3,13 +3,9 @@
   overflow-x: hidden;
 }
 
-
-
 #cars-container {
-  width: 85%;
-  max-width: 1180px;
-  margin: 0 auto;
-  margin-top: 24px;
+  margin: 40px auto;
+  margin-top: 56px;
   position: relative;
   z-index: 1;
 }

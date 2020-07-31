@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useHistory } from 'react-router-dom'
 
-import Header from '../../components/HeaderLogo';
+import useData from '../../hooks/useData'
+
 import Infos from './components/Infos';
 import Galery from './components/Galery';
 import Optionals from './components/Optionals';
-import Footer from '../../components/Footer'
 import "./styles.css";
 
-const Single = ( { data } ) => {
-  const { path } = useParams()
+const Single = () => {
+  const { id } = useParams()
   const history = useHistory();
-  const [details, setDetails] = useState();
+  const data = useData();
+
+  const [car, setCar] = useState();
   const [isMobile, setIfIsMobile] = useState();
   
   useEffect(() => {
@@ -30,36 +32,36 @@ const Single = ( { data } ) => {
   }, [])
   
   useEffect(() => {
-    const values = data[path];
-    if (values) {
-      setDetails(values);
-    } else {
-      history.push('/');
+    if (data.length > 0) {
+      const findCar = data.find(val => val.id === id)
+      if (findCar) {
+        setCar(findCar);
+      } else {
+        history.push('/');
+      }
     }
-  }, [data, history, path])
+  }, [data, history, id])
 
-  if (details) {
+  if (car) {
     return (
       <>
-        <Header />
         <div id="car-details">
           <div className='container'>
             <main>
               <Infos 
-                path={path}
+                id={id}
                 isMobile={isMobile} 
-                car={details}
+                car={car}
               />
             </main>
             {!isMobile ? (
               <aside>
-                <Galery data={details} />
+                <Galery data={car} />
               </aside>
             ) : null}
           </div>
         </div>
-        <Optionals info={details}/>
-        <Footer />
+        <Optionals info={car}/>
       </>
     );
   }

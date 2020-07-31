@@ -1,64 +1,59 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom'
+
+import { toCurrency } from '../../../../utils/number'
+import timeIcon from '../../../../assets/icons/timer90.svg'
+import taxIcon from '../../../../assets/icons/tax.svg'
+
 
 // import { Container } from './styles';
 import "./styles.css";
 
-const Car = ({info}) => {
-
-  const [error, setError] = useState(false);
-  const [thumb, setThumb] = useState('');
-
-  useEffect(() => {
-    const loadImage = async () => {
-      const downloadingImage = new Image();
-      downloadingImage.src = info.data.pics[0];
-      downloadingImage.onload = () => {
-        setThumb(downloadingImage.src);
-      };
-      downloadingImage.onerror = () => {
-        setError(true);
-      }
-    };
-    loadImage();
-  }, [info]);
-
-  if (error) return null;
-  
+const Car = ({car}) => {  
   return (
     <Link
-      to={`/${info.key}`} 
-      className={`item ${info.key}`}
+      to={`/${car.id}`} 
+      className={`item car-${car.id}`}
     >
       <div className="car-box">
         <div className="image-container">
-          <div className={`image ${thumb ? 'loaded' : ''}`}>
-            <img src={thumb} alt={info.data.name}/>
+          <div className={'image'}>
+            <img src={car.thumb} alt={car.fullName}/>
           </div>
         </div>
 
         <div className="name">
-          <h2>{info.name.main}</h2>
-          <h3>{`${info.data.year} ${info.name.sub}`}</h3>
+          <h2>{car.name[0]}</h2>
+          <h3>{`${car.year} ${car.name[1]}`}</h3>
         </div>
 
         <div className="price">
-          {info.data.price ? (
+          {car.price ? (
             <p className="from">
-              de {info.data.price} por
+              de R$ {toCurrency(car.price)},00 por
             </p>
           ) : null}
           <p className="to">
             R$
-            <strong> {info.promotion}</strong>
+            <strong> {toCurrency(car.promotion)}</strong>
             ,00
           </p>
         </div>
         
-        <div className="installment">
-          <div className="line"></div>
-          <p>1ªParcela para 90 dias</p>
-          <div className="line"></div>
+        <div className="tax-content">
+          <div className="tax-item">
+            <img src={timeIcon} alt="Icone de periodo de 90 dias"/>
+            <div className="text">
+              <p className='low'>primeira parcela</p>
+              <p>para 90 dias!</p>
+            </div>
+          </div>
+          <div className="tax-item">
+            <img src={taxIcon} alt="Icone de periodo de 90 dias"/>
+            <div className="text">
+              <p>taxas de 0,99%</p>
+            </div>
+          </div>
         </div>
         
         <div className="button">

@@ -1,169 +1,79 @@
 #home-header {
   position: relative;
   width: 100%;
-  overflow-y: visible;
-  position: relative;
 }
 
-#home-header #countdown-container {
-  display: flex;
-  align-items: center;
-  padding: 92px 0;
-}
-
-#home-header #countdown-container .header-background{
+#home-header .background-square{
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-52%, -60%);
   z-index: 0;
-  width: 155%;
-  pointer-events: none;
+  height: 320px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #02100F;
 }
 
-#home-header #countdown-container .title{
-  width: calc(50% - 32px);
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
+#home-header #countdown-container{
   position: relative;
-  z-index: 1;
-}
-
-#home-header #countdown-container .title img{
-  width: 475px;
-  max-width: 100%;
-}
-
-#home-header #countdown-container .countdown {
-  width: calc(50% - 32px);
-  margin-left: auto;
-  position: relative;
-  z-index: 1;
-}
-
-#home-header #countdown-container .countdown h2 {
+  /* width: 90%; */
+  /* max-width: 1088px; */
+  height: 400px;
   display: flex;
-  align-items: center;
-  flex-direction: row;
-  color: #6D605A;
-  text-transform: uppercase;
-  font: bold 48px 'Bebas Neue', sans-serif;
-}
-
-#home-header #countdown-container .countdown h2 img{
-  margin-right: 13px;
-  transform: translateY(-5px);
-}
-
-#home-header #countdown-container .safety-info{
-  height: 72px;
-  padding-left: 23px;
-  border-left: 2px solid #FF3400;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
-#home-header #countdown-container .safety-info .top{
-  font-size: 16px;
-  font-weight: 900;
-  color: #6D605A;
-  margin: 0;
+#home-header .cars-image {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
 }
 
-#home-header #countdown-container .safety-info .bot{
-  font-size: 16px;
-  font-weight: 900;
-  color: #FF3400;
+#home-header .countdown {
+  position: relative;
+  z-index: 20;
+  text-align: center;
+  margin-top: 56px;
+}
+
+#home-header .countdown h2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #D14200;
+}
+
+#home-header .countdown h2 img{
+  margin-right: 16px;
+}
+
+#home-header #logo-container {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  margin: 0;
-  margin-top: 4px;
+  align-items: flex-end;
+  margin-top: 16px;
 }
 
-#home-header #countdown-container .safety-info .bot img{
+#home-header #logo-container .logo{
+  width: 180px;
+}
+
+#home-header #logo-container .logo img{
+  width: 100%;
+}
+
+#home-header #logo-container .online {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-bottom: 16px;
+  font-weight: bold;
+  color: #D14200;
+}
+
+#home-header #logo-container .online img {
   margin-right: 6px;
-  transform: translateY(-2px);
-}
-
-
-@media screen and (max-width: 1000px) {
-  /* #home-header {
-    position: relative;
-    width: 100%;
-    overflow-y: visible;
-    position: relative;
-  } */
-  
-  #home-header #countdown-container {
-    /* display: flex; */
-    /* align-items: center; */
-    padding: 24px 0;
-    flex-direction: column;
-  }
-  
-  #home-header #countdown-container .header-background{
-    display: none;
-  }
-  
-  #home-header #countdown-container .title{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    z-index: 1;
-  }
-  
-  #home-header #countdown-container .countdown {
-    width: 100%;
-    margin-top: 24px;
-  }
-  
-  #home-header #countdown-container .countdown h2 {
-    text-align: center;
-    justify-content: center;
-    font: bold 24px 'Bebas Neue', sans-serif;
-  }
-  
-  #home-header #countdown-container .countdown h2 img{
-    margin-right: 8px;
-    width: 24px;
-    transform: translateY(-3px);
-  }
-  
-  #home-header #countdown-container .safety-info{
-    height: 72px;
-    padding-left: 23px;
-    border-left: 2px solid #FF3400;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-  
-  #home-header #countdown-container .safety-info .top{
-    font-size: 16px;
-    font-weight: 900;
-    color: #6D605A;
-    margin: 0;
-  }
-  
-  #home-header #countdown-container .safety-info .bot{
-    font-size: 16px;
-    font-weight: 900;
-    color: #FF3400;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0;
-    margin-top: 4px;
-  }
-  
-  #home-header #countdown-container .safety-info .bot img{
-    margin-right: 6px;
-    transform: translateY(-2px);
-  }
-  
 }

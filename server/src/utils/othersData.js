@@ -15,7 +15,10 @@ const setupOthersData = (id) => {
     case '675242': return { price: '38900' }
     case '675664': return {}
     case '673724': return { price: '95900' }
-    case '672453': return { price: '59900' }
+    case '672453': return { 
+      price: '59900',
+      promotion: '55990'
+    }
     case '676579': return { price: '40900' }
     case '678319': return { price: '16900' }
     default: return {}

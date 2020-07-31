@@ -9,7 +9,6 @@ const XMLService = () => {
   }
 
   const onApiGet = async () => {
-    // console.log(API_URL)
     const response = await axios.get(API_URL)
     return response.data;
   }

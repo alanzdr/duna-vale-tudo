@@ -1,24 +1,35 @@
 import React from 'react';
 
 import timeIcon from '../../../../assets/icons/timer90.svg'
-import taxIcon from '../../../../assets/icons/tax.svg'
+import moneyBackIcon from '../../../../assets/icons/money-back.svg'
 
 import './styles.css';
 
 function SectionBreak() {
   return (
-    <section id="section-break">
-      <div className="time">
-        <img src={timeIcon} alt="Icone de periodo de 90 dias"/>
-        <p>primeira parcela para 90 dias!</p>
-      </div>
-      <div className="tax">
-        <img src={taxIcon} alt="Ícone de Dinheiro sibolisando taxa"/>
-        <div className="text">
-          <h4>taxa de 0,55%</h4>
-          <p>em veículos de 2017, 2018, 2019 e 2020</p>
+    <section id="section-break" className='container'>
+      <p className="text-left">
+       Comemore o aniversário da Fiat Dunana região com as 
+       <strong> melhores ofertas </strong> 
+       e condições para comprar seu seminovo.
+      </p>
+      <div className="box-content">
+        <div className="box">
+          <img src={timeIcon} alt="Icone de periodo de 90 dias"/>
+          <div className="text">
+            <p className='low'>primeira parcela</p>
+            <p>para 90 dias!</p>
+          </div>
         </div>
+        <div className="box">
+          <img src={moneyBackIcon} alt="Icone de Retorno Financeiro"/>
+          <div className="text">
+            <p>troco na troca</p>
+          </div>
+        </div>
+
       </div>
+
     </section>
   )
 }

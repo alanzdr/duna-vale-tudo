@@ -11,7 +11,7 @@ const Galery = ({data}) => {
   const slideRef = useRef();
 
   useEffect(() => {
-    const {length} = data.data.pics;
+    const {length} = data.pics;
     if (length >= 4) {
       setThumbWidth(length * 25);
     } else {
@@ -20,7 +20,7 @@ const Galery = ({data}) => {
   }, [data]);
 
   const handleWithMove = (index) => {
-    const { length } = data.data.pics;
+    const { length } = data.pics;
     const maxPosition = length * 25 - 100; 
     let position = -50 + 25 * index;
     if (position < 0) {
@@ -53,10 +53,10 @@ const Galery = ({data}) => {
           settings={settings}
           onIndexChanged={(info) => handleWithMove(info.index)}
         >
-          {data.data.pics.map(photo => (
+          {data.pics.map(photo => (
             <div key={photo} className="photo-container">
               <div className="photo">
-                <img src={photo} alt={data.data.name}/>
+                <img src={photo} alt={data.name}/>
               </div>
             </div>
           ))}
@@ -70,9 +70,9 @@ const Galery = ({data}) => {
           }} 
           className="thumbs"
         >
-          {data.data.pics.map((photo, i) => (
+          {data.pics.map((photo, i) => (
             <div onClick={() => Move(i)} key={photo} className="photo">
-              <img src={photo} alt={data.data.name}/>
+              <img src={photo} alt={data.name}/>
             </div>
           ))}
         </div>  

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');  
 
 @font-face {
   font-family: 'Bebas Neue';
@@ -13,13 +13,12 @@
 }
 
 body {
-  font: 400 16px Roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: #F3F2EF;
+  background: #001C1A;font-family: 'Poppins', sans-serif;
 }
 
 input, button, textarea {
-  font: 400 16px Roboto, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 button {
@@ -31,8 +30,12 @@ a {
   text-decoration: none;
 }
 
+figure {
+  display: contents;
+}
+
 .container {
-  width: 85%;
-  max-width: 1180px;
+  width: 90%;
+  max-width: 1088px;
   margin: 0 auto;
 }

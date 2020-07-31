@@ -8,15 +8,15 @@ import Analytics from './utils/analytics'
 import Home from './pages/Home';
 import Single from './pages/Single';
 
-const AppRoutes = ({ data }) => {
+const AppRoutes = () => {
   return (
     <Router basename='/valetudo'>
       <Analytics>
         <Route path="/" exact>
-          <Home data={data}/>
+          <Home />
         </Route>
-        <Route path="/:path">
-          <Single data={data}/>
+        <Route path="/:id">
+          <Single />
         </Route>
       </Analytics>
     </Router>

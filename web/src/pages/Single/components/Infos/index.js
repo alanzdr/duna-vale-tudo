@@ -11,7 +11,7 @@ import Galery from '../Galery';
 import CountdownText from '../CountdownText';
 import './styles.css';
 
-const Infos = ( { isMobile, car, path } ) =>  {
+const Infos = ( { isMobile, car, id } ) =>  {
   const analytics = useAnalytics();
 
   const handleWithButtonClick = (eventLabel) => {
@@ -23,27 +23,27 @@ const Infos = ( { isMobile, car, path } ) =>  {
   
   return (
     <div id='car-details-text'>
-      <Link className='back' to={{pathname: '/', state: { path }}}>
+      <Link className='back' to={{pathname: '/', state: { id }}}>
         <img src={BackIcon} alt="Voltar"/>
         Voltar para as ofertas
       </Link>
       <div className='title'>
-        <h1>{car.name.main}</h1>
-        <h2>{`${car.data.year} ${car.name.sub}`}</h2>
+        <h1>{car.name[0]}</h1>
+        <h2>{`${car.year} ${car.name[1]}`}</h2>
       </div>
       {isMobile ? (
         <Galery data={car} />
       ) : null}
       <div className="extras">
         <p className="installment">1ª Parcela para 90 dias</p>
-        {car.data.year && Number(car.data.year) > 2016 && (
+        {car.year && Number(car.year) > 2016 && (
           <p className="extra-box">taxas de 0,55%</p>
         )}
       </div>
       <div className="price">
-        {car.data.price ? (
+        {car.price ? (
           <p className="from">
-            de {car.data.price} por apenas
+            de {car.price} por apenas
           </p>
         ) : null}
         <p className="to">

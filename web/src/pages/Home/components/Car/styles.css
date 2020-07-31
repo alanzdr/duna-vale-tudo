@@ -1,18 +1,7 @@
-@keyframes show {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .car-box {
-  -webkit-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.16);
-  -moz-box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.16);
-  box-shadow: 0px 2px 6px 0px rgba(0,0,0,0.16);
+  -webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.16);
+  -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.16);
+  box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.16);
   transition: box-shadow .5s ease, transform .5s ease;
   background: #fff;
   padding-bottom: 24px;
@@ -27,16 +16,6 @@
   transform: translateY(-3px);
 }
 
-.car-box .line {
-  background: #FF3400;
-  width: 100px;
-  height: 1px;
-  position: relative;
-  margin: 0 auto;
-  display: block;
-  content: ' ';
-}
-
 .car-box .image-container {
   width: 100%;
   padding: 8px;
@@ -47,12 +26,7 @@
   padding-top: 75%;
   overflow: hidden;
   border-radius: 5px;
-  opacity: 0;
   transition: opacity .2s ease;
-}
-
-.car-box .image.loaded{
-  opacity: 1;
 }
 
 .car-box .image img{
@@ -65,29 +39,30 @@
 }
 
 .car-box .name {
-  padding: 32px 16px;
+  padding: 24px 0;
   text-align: center;
-  background: #1A0D06;
+  background: #003632;
 }
 
 .car-box .name h2{
   margin: 0;
   line-height: 32px;
-  font-size: 24px;
+  letter-spacing: -0.8px;
+  font-size: 22px;
   color: #fff;
 }
 
 .car-box .name h3{
   margin: 0;
   line-height: 1.33;
-  font-size: 20px;
-  color: #FF3400;
+  font-size: 18px;
+  color: #74F0FF;
   font-weight: normal;
 }
 
 .car-box .price{
   padding-top: 32px;
-  height: 140px;
+  height: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -97,9 +72,8 @@
 
 .car-box .price .from{
   font-size: 24px;
-  line-height: 24px;
-  margin: 0;
-  color: #FF7A57;
+  line-height: 1;
+  color: #216762;
 }
 
 .car-box .price .to{
@@ -107,7 +81,7 @@
   line-height: 40px;
   color: #232323;
   letter-spacing: -3px;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
   font-weight: bold;
 }
@@ -117,41 +91,63 @@
   line-height: 74px;
 }
 
-.car-box .price .line {
-  margin-top: 4px;  
+.car-box .tax-content {
+  width: calc(100% - 48px);
+  margin: 16px 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.car-box .installment {
-  text-align: center;
-  margin-top: 4px;
+.car-box .tax-content .tax-item{
+  max-width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-.car-box .installment p {
-  font-size: 16px;
+.car-box .tax-content .tax-item img{
+  width: 20px;
+}
+
+.car-box .tax-content .tax-item:first-of-type img{
+  width: 35px;
+}
+
+.car-box .tax-content .tax-item .text{
+  margin-left: 6px;
+}
+
+.car-box .tax-content .tax-item .text p {
+  font-size: 15px;
+  letter-spacing: -0.3px;
+  color: #216762;
+  line-height: 1.2;
   font-weight: bold;
-  color: #FF3400;
-  margin: 14px 0;
 }
 
-/* .car-box .installment .line {
-  margin-top: 16px;
-} */
+.car-box .tax-content .tax-item .text .low {
+  font-size: 11px;
+  letter-spacing: 0;
+}
 
 .car-box .button {
-  background: #008A2E;
+  background: #D14200;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 48px;
   width: calc(100% - 48px);
-  margin: 0 24px;
+  margin: 0 auto;
   margin-top: 24px;
   border-radius: 3px;
   transition: background .5s ease;
 }
+
 .car-box .button:hover {
-  background: #00B33B;
+  background: #F74E00;
 }
+
 .car-box .button p{
   font-size: 18px;
   font-weight: bold;

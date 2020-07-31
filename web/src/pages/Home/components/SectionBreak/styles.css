@@ -1,100 +1,56 @@
 #section-break {
-  width: 85%;
-  max-width: 1180px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: space-between;
-}
-
-#section-break .time {
-  padding: 0 20px;
+  margin-top: 16px;
   display: flex;
   align-items: center;
-  background: #1A0D06;
-  border-radius: 9px;
-  height: 92px;
+  /* justify-content: ; */
 }
 
-#section-break .time img{
-  width: 48px;
+#section-break .text-left {
+  color: #74F0FF;
+  font-size: 20px;
+  line-height: 1.2;
+  max-width: 617px;
+}
+
+#section-break .text-left strong {
+  color: #fff;
+}
+
+#section-break .box-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 421px;
+  margin-left: auto;
+}
+
+#section-break .box-content .box {
+  padding-left: 15px;
+  padding-right: 30px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  background: #003632;
+  border-radius: 9px;
+}
+
+#section-break .box-content .box:first-of-type {
   margin-right: 8px;
 }
 
-#section-break .time p {
-  font-size: 32px;
-  line-height: 1;
+#section-break .box-content .box .text {
+  margin-left: 10px;
+}
+
+#section-break .box-content .box .text p {
+  font-size: 16px;
+  letter-spacing: -0.2px;
   color: #fff;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  font-family: 'Bebas Neue', sans-serif;
-  width: 172px;
-  position: relative;
-  top: 1px;
-}
-
-#section-break .tax {
-  padding: 0 40px;
-  display: flex;
-  align-items: center;
-  background: #1A0D06;
-  border-radius: 9px;
-  height: 92px;
-}
-
-#section-break .tax img {
-  width: 22px;
-  margin-right: 14px;
-}
-
-#section-break .text {
-  
-}
-
-#section-break .text h4{
-  font-size: 32px;
-  color: #FF3400;
-  text-transform: uppercase;
-  line-height: 1;
-  font-family: 'Bebas Neue', sans-serif;
-}
-
-#section-break .text p{
-  font-size: 12px;
-  font-family: 'Bebas Neue', sans-serif;
+  line-height: 1.2;
   font-weight: bold;
-  color: #fff;
-  line-height: 1;
-  text-transform: uppercase;
 }
 
-@media screen and (max-width: 1000px) {
-  #section-break {
-    flex-direction: column;
-  }
-  #section-break .time {
-    background: transparent;
-    margin: 0 auto;
-    height: auto;
-  }
-  #section-break .time p {
-    color: #1A0D06;
-    font-size: 24px;
-    width: auto;
-  }
-  #section-break .tax {
-    background: transparent;
-    margin: 24px auto;
-    height: auto;
-  }
-  #section-break .tax .text{
-    text-align: center;
-  }
-  #section-break .tax .text h4{
-    font-size: 40px;
-  }
-
-  #section-break .tax .text p{
-    color: #1A0D06;
-    font-size: 15px;
-  }
+#section-break .box-content .box .text .low {
+  font-size: 12px;
+  letter-spacing: 0;
 }

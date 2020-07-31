@@ -1,50 +1,22 @@
 #countdown-itens {
-  width: calc(100% + 8px);
-  margin: 18px -4px;
   display: flex;
   flex-direction: row;
+  margin-top: 24px;
 }
 
 #countdown-itens .item {
-  width: calc(33.3333% - 8px);
-  margin: 0 4px;
-  height: 150px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: #1A0D06;
+  margin: 0 32px;
 }
 
 #countdown-itens .item h3 {
-  margin: 0;
-  font: bold 96px 'Bebas Neue', sans-serif;
   font-size: 96px;
-  line-height: 78px;
+  font-weight: bold;
+  font-family: 'Bebas Neue', sans-serif;
   color: #fff;
+  line-height: 80px;
 }
 
 #countdown-itens .item p {
-  line-height: 1;
-  margin: 0;
-  font: bold 24px 'Bebas Neue', sans-serif;
-  color: #FF3400;
-}
-
-
-@media screen and (max-width: 1000px) {
-  #countdown-itens .item {
-    height: 108px;
-  }
-
-  #countdown-itens .item h3 {
-    font: bold 64px 'Bebas Neue', sans-serif;
-    line-height: 64px;
-  }
-  
-  #countdown-itens .item p {
-    font: bold 16px 'Bebas Neue', sans-serif;
-  }
-  
+  color: #74F0FF;
+  font-weight: bold;
 }
