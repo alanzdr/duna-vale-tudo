@@ -3,6 +3,7 @@ import { useParams, useHistory } from 'react-router-dom'
 
 import useData from '../../hooks/useData'
 
+import Header from './components/Header';
 import Infos from './components/Infos';
 import Galery from './components/Galery';
 import Optionals from './components/Optionals';
@@ -45,6 +46,7 @@ const Single = () => {
   if (car) {
     return (
       <>
+        <Header />
         <div id="car-details">
           <div className='container'>
             <main>

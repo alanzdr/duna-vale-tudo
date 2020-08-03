@@ -2,17 +2,23 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import { getWhatsLink } from '../../../../utils/whatsapp'
-import WhatsappIcon from '../../../../assets/icons/whatsapp.svg'
-import TimeIcon from '../../../../assets/icons/time.svg'
-import BackIcon from '../../../../assets/icons/back.svg'
 import { useAnalytics } from '../../../../utils/analytics'
-
+import { toCurrency } from '../../../../utils/number'
+import useLocalization from '../../../../hooks/useLocalization'
 import Galery from '../Galery';
 import CountdownText from '../CountdownText';
+
+// assets
+import TimeIcon from '../../../../assets/icons/time.svg'
+import WhatsappIcon from '../../../../assets/icons/whatsapp.svg'
+import BackIcon from '../../../../assets/icons/back.svg'
+import timeIcon from '../../../../assets/icons/timer90.svg'
+import moneyBackIcon from '../../../../assets/icons/money-back.svg'
 import './styles.css';
 
 const Infos = ( { isMobile, car, id } ) =>  {
   const analytics = useAnalytics();
+  const { city } = useLocalization();
 
   const handleWithButtonClick = (eventLabel) => {
     analytics.event.whatsapp(eventLabel);
@@ -31,68 +37,54 @@ const Infos = ( { isMobile, car, id } ) =>  {
         <h1>{car.name[0]}</h1>
         <h2>{`${car.year} ${car.name[1]}`}</h2>
       </div>
+      <div className="extras">
+        <div className="item">
+          <img src={timeIcon} alt="Icone de periodo de 90 dias"/>
+          <div className="low text">
+            <p className='up'>primeira parcela</p>
+            <p>para 90 dias!</p>
+          </div>
+        </div>
+        <div className="item">
+          <img src={moneyBackIcon} alt="Icone de Retorno Financeiro"/>
+          <div className="text">
+            <p>troco na troca</p>
+          </div>
+        </div>
+      </div>
       {isMobile ? (
         <Galery data={car} />
       ) : null}
-      <div className="extras">
-        <p className="installment">1ª Parcela para 90 dias</p>
-        {car.year && Number(car.year) > 2016 && (
-          <p className="extra-box">taxas de 0,55%</p>
-        )}
-      </div>
       <div className="price">
         {car.price ? (
           <p className="from">
-            de {car.price} por apenas
+            de R$ {toCurrency(car.price)} por apenas
           </p>
         ) : null}
         <p className="to">
           R$
-          <strong>{car.promotion}</strong>
+          <strong> {toCurrency(car.promotion)}</strong>
           ,00
         </p>
       </div>
-      <p className="buttons-title">
-        Entre em contato com a concessionária mais próxima de você:
-      </p>
       <div className="buttons-container">
         <a 
-          onClick={() => handleWithButtonClick('Araranguá')} 
+          onClick={() => handleWithButtonClick()} 
           className="button" 
-          href={getWhatsLink('5548991835855')} 
+          href={getWhatsLink(city)} 
           target="_blank" 
           rel="noopener noreferrer"
         >
-          <p>Araranguá</p>
+          <p>Chamar no whatsapp</p>
           <img src={WhatsappIcon} alt="Whatsapp logo"/>
         </a>
-        <a 
-          onClick={() => handleWithButtonClick('Criciúma')} 
-          className="button" 
-          href={getWhatsLink('5548991835855')} 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          <p>Criciúma</p>
-          <img src={WhatsappIcon} alt="Whatsapp logo"/>
-        </a>
-        <a 
-          onClick={() => handleWithButtonClick('Tubarão')} 
-          className="button" 
-          href={getWhatsLink('554836210461')} 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
-          <p>Tubarão</p>
-          <img src={WhatsappIcon} alt="Whatsapp logo"/>
-        </a>
-      </div>
-      <div className="warning">
-        <img src={TimeIcon} alt="Icone de tempo"/>
-        <p>
-          Essas ofertas são válidas
-          <CountdownText />
-        </p>
+        <div className="warning">
+          <img src={TimeIcon} alt="Icone de tempo"/>
+          <p>
+            Essa oferta é válida por apenas
+            <CountdownText />
+          </p>
+        </div>
       </div>
     </div>
   );

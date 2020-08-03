@@ -20,3 +20,30 @@
   color: #74F0FF;
   font-weight: bold;
 }
+
+@media screen and (max-width: 1000px) {
+  #countdown-itens {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* margin-top: 16px; */
+  }
+  
+  #countdown-itens .item {
+    margin: 0 16px;
+  }
+  
+  #countdown-itens .item h3 {
+    font-size: 64px;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #fff;
+    line-height: 80px;
+  }
+  
+  #countdown-itens .item p {
+    /* color: #74F0FF; */
+    /* font-weight: bold; */
+    font-size: 12px;
+  }
+
+}

@@ -5,12 +5,13 @@ import { useCountdown } from '../../../../utils/date'
 const CountdownText = () => {
   const {days, hours, minutes, seconds} = useCountdown();
   const Time = (time) => {
+    if (time <= 0) return '00'
     if (time < 10) return `0${time}`;
     return time; 
   }
   return (
     <strong>
-      {` até ${Time(days)} dias e `}
+      {` ${Time(days)} dias e `}
       {`${Time(hours)}:${Time(minutes)}:${Time(seconds)}`}
     </strong>
   )

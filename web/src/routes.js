@@ -10,7 +10,7 @@ import Single from './pages/Single';
 
 const AppRoutes = () => {
   return (
-    <Router basename='/valetudo'>
+    <Router basename='/seminovos-duna'>
       <Analytics>
         <Route path="/" exact>
           <Home />

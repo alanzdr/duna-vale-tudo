@@ -1,12 +1,10 @@
 #car-details {
-  padding: 80px 0;
+  padding-top: 32px;
+  padding-bottom: 56px;
 }
 
 #car-details .container {
-  margin: 0 auto;
-  max-width: 1180px;
   display: flex;
-  width: 85%;
   flex-direction: row;
 }
 
@@ -20,13 +18,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-  #car-details {
-    padding: 20px 0;
-  }
-  
-  #car-details .container {
-    width: 90%;
-  }
   
   #car-details main{
     width: 100%;

@@ -1,24 +1,17 @@
 const Car = require('../models/Car')
 
 const DataService = () => {
-  const data = [];
-
-  const updateData = (value) => {
-    const car = Car(value);
-    if (car) {
-      const index = data.findIndex((value) => value.id === car.id);
-      if (index >= 0) {
-        data[index] = car;
-      } else {
-        data.push(car)
-      }
-    }
-  }
+  let data = [];
 
   const onSet = (xmlData) => {
+    const newData = []
     xmlData.forEach(value => {
-      updateData(value);
+      const carEnabled = Car(value);
+      if (carEnabled) {
+        newData.push(carEnabled)
+      }
     })
+    data = newData;
   }
 
   const onGet = () => {

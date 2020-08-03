@@ -4,6 +4,9 @@ import Countdown from '../Countdown'
 
 // Assets
 import HeaderImagePng from '../../../../assets/images/header.png'
+import HeaderImage from '../../../../assets/images/header.webp'
+import HeaderImage900 from '../../../../assets/images/header-900.webp'
+import HeaderImage375 from '../../../../assets/images/header-375.webp'
 import Logo from '../../../../assets/images/logo.svg'
 import VerifiedIcon from '../../../../assets/icons/verified.svg'
 import TimeIcon from '../../../../assets/icons/time.svg'
@@ -14,6 +17,9 @@ const Header = () => {
     <header id='home-header'>
       <div id='countdown-container' className='container'>
         <picture>
+          <source type="image/webp" media="(max-width: 375px)" srcSet={HeaderImage375} />
+          <source type="image/webp" media="(max-width: 1000px)" srcSet={HeaderImage900} />
+          <source type="image/webp" srcSet={HeaderImage} />
           <img className='cars-image' src={HeaderImagePng} alt="Carros"/>
         </picture>
         <div className="countdown">
@@ -26,9 +32,7 @@ const Header = () => {
       </div>
       <div id="logo-container" className='container'>
         <div className="logo">
-          <picture>
-            <img className='logo' src={Logo} alt="Seminovos Fiat Duna"/>
-          </picture>
+          <img className='logo' src={Logo} alt="Seminovos Fiat Duna"/>
         </div>
         <p className='online'>
           <img src={VerifiedIcon} alt="Icone de segurança"/>

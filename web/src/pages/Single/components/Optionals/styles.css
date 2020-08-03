@@ -1,17 +1,15 @@
-#optionals-container {
-  width: 85%;
-  max-width: 1180px;
-  margin: 0 auto;
+#optionals {
   padding-top: 80px;
   padding-bottom: 72px;
+  background: #051615;
 }
 
-#optionals-container h2{
-  color: #2E2E2E;
+#optionals h2{
+  color: #74F0FF;
   font-size: 24px;
 }
 
-#optionals-container .itens{
+#optionals .itens{
   width: calc(100% + 32px);
   margin: 0 -16px;
   margin-top: 30px;
@@ -20,41 +18,42 @@
   flex-wrap: wrap;
 }
 
-#optionals-container .itens .item{
+#optionals .itens .item{
   width: calc(25% - 32px);
   height: 30px;
-  margin: 0 16px;
+  margin: 2px 16px;
   display: flex;
   align-items: center;
 }
 
-#optionals-container .itens .item::before{
+#optionals .itens .item::before{
   display: block;
   content: ' ';
   width: 4px;
   height: 4px;
-  background: #FF6100;
+  background: #74F0FF;
   border-radius: 2px;
   margin-right: 10px;
 }
 
-#optionals-container .itens .item p{
+#optionals .itens .item p{
   font-size: 16px;
-  color: #929292;
+  line-height: 1;
+  color: #216762;
 }
 
 
 @media screen and (max-width: 1000px) {
-  #optionals-container {
-    width: 90%;
+  #optionals {
+    /* width: 90%; */
     padding: 64px 0;
   }
   
-  #optionals-container h2{
+  #optionals h2{
     text-align: center;
   }
   
-  #optionals-container .itens{
+  #optionals .itens{
     width: 100%;
     margin: 0;
     margin-top: 36px;
@@ -62,7 +61,7 @@
     flex-wrap: nowrap;
   }
   
-  #optionals-container .itens .item{
+  #optionals .itens .item{
     width: 100%;
     height: 30px;
     margin: 0 16px;
@@ -70,7 +69,7 @@
     align-items: center;
   }
   
-  #optionals-container .itens .item::before{
+  #optionals .itens .item::before{
     display: block;
     content: ' ';
     width: 4px;
@@ -80,7 +79,7 @@
     margin-right: 10px;
   }
   
-  #optionals-container .itens .item p{
+  #optionals .itens .item p{
     font-size: 16px;
     color: #929292;
   }

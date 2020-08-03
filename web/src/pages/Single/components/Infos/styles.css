@@ -21,9 +21,9 @@
 
 #car-details-text .title h1{
   margin: 0;
-  margin-top: 24px;
+  margin-top: 32px;
   font-size: 48px;
-  color: #232323;
+  color: #fff;
   line-height: 40px;
 }
 
@@ -32,35 +32,50 @@
   font-size: 32px;
   font-weight: normal;
   line-height: 40px;
-  color: #888888;
+  color: #B8FAFF;
   margin-top: 4px;
 }
 
 #car-details-text .extras{
-  margin-top: 24px;
+  margin-top: 32px;
+  padding: 16px 0;
+  padding-left: 12px;
+  padding-right: 40px;
+  display: flex;
+  flex-direction: row;
+  background: #003632;
+  border-radius: 8px;
+  width: max-content;
 }
 
-#car-details-text .extras .installment{
-  margin: 0;
-  font-size: 24px;
-  color: #232323;
-  line-height: 40px;
+#car-details-text .extras .item {
+  display: flex;
+  align-items: center;
+}
+
+#car-details-text .extras .item:first-of-type{
+  margin-right: 40px;
+}
+
+#car-details-text .extras .item .text {
+  margin-left: 10px;
+}
+
+#car-details-text .extras .item .text p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 1.2;
   font-weight: bold;
 }
 
-#car-details-text .extras .extra-box{
-  background: #160100;
-  color: #FF3400;
-  font-size: 16px;
-  font-weight: 900;
-  line-height: 21px;
-  padding: 6px 28px;
-  text-transform: uppercase;
-  display: inline-block;
-  border-radius: 68px;
-  margin: 0;
-  margin-top: 4px;
+#car-details-text .extras .item .text.low p {
+  font-size: 24px;
 }
+
+#car-details-text .extras .item .text.low p.up {
+  font-size: 16px;
+}
+
 
 #car-details-text .price{
   margin-top: 32px;
@@ -70,7 +85,7 @@
   margin: 0;
   font-size: 24px;
   line-height: 40px;
-  color: #888888;
+  color: #B8FAFF;
 }
 
 #car-details-text .price .to {
@@ -79,45 +94,40 @@
   font-size: 48px;
   line-height: 40px;
   font-weight: bold;
-  color: #232323;
+  color: #fff;
 }
 
 #car-details-text .price .to strong{
   font-size: 64px;
 }
 
-#car-details-text .buttons-title {
-  margin-top: 32px;
-  margin-bottom: 10px;
-  font-size: 16px;
-  color: #008A2E;
-  line-height: 1;
-}
-#car-details-text .buttons-container{
+#car-details-text .buttons-container {
   display: flex;
   flex-direction: row;
-  width: calc(100% + 10px);
-  margin: 0 -10px;
-  max-width: 520px;
+  width: 100%;
+  margin: 0;
+  margin-top: 32px;
 }
-#car-details-text .buttons-container .button{
+
+#car-details-text .buttons-container .button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  background: #008A2E;
-  -webkit-box-shadow: 0px 3px 10px 0px rgba(96,214,106,0.4);
-  -moz-box-shadow: 0px 3px 10px 0px rgba(96,214,106,0.4);
-  box-shadow: 0px 3px 10px 0px rgba(96,214,106,0.4);
+  background: #22E951;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(96,214,106,0.2);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(96,214,106,0.2);
+  box-shadow: 0px 3px 10px 0px rgba(96,214,106,0.2);
   transition: box-shadow .5s, transform .5s, background .5s;
   border-radius: 3px;
   height: 48px;
-  padding: 0 22px;
-  width: calc(33.3333% - 10px);
-  margin: 0 5px;
+  padding-left: 22px;
+  padding-right: 15px;
+  width: 50%;
+  max-width: 255px;
 }
 
 #car-details-text .buttons-container .button p{
-  font-size: 18px;
+  font-size: 16px;
   color: #fff;
   font-weight: bold;
 }
@@ -127,18 +137,18 @@
 }
 
 #car-details-text .buttons-container .button:hover {
-  background: #00B33B;
-  -webkit-box-shadow: 0px 5px 10px 0px rgba(96,214,106,0.4);
-  -moz-box-shadow: 0px 5px 10px 0px rgba(96,214,106,0.4);
-  box-shadow: 0px 5px 10px 0px rgba(96,214,106,0.4);
-  transform: translateY(-2px);
+  background: #1CC243;
+  -webkit-box-shadow: 0px 5px 10px 0px rgba(96,214,106,0.2);
+  -moz-box-shadow: 0px 5px 10px 0px rgba(96,214,106,0.2);
+  box-shadow: 0px 5px 10px 0px rgba(96,214,106,0.2);
+  /* transform: translateY(-2px); */
 }
 
 #car-details-text .warning{
   display: flex;
   flex-direction: row;
   align-items: center;
-  margin-top: 16px;
+  margin-left: 32px;
 }
 
 #car-details-text .warning img{
@@ -147,10 +157,12 @@
 
 #car-details-text .warning p{
   margin: 0;
-  margin-left: 12px;
-  font-size: 16px;
+  margin-left: 16px;
+  font-size: 12px;
   font-weight: 500;
-  line-height: 1;
+  line-height: 1.5;
+  max-width: 175px;
+  color: #D14200;
 }
 
 @media screen and (max-width: 1000px) {
@@ -159,20 +171,45 @@
   }
   #car-details-text .title {
     text-align: center;
-    margin-bottom: 40px;
   }
   #car-details-text .title h1{
     font-size: 40px;
+    margin-top: 0;
   }
   
   #car-details-text .title h2{
     font-size: 24px;
     line-height: 32px;
   }
-  
+
   #car-details-text .extras{
-    margin-top: 20px;
-    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding: 0;
+    background: 0;
+    border-radius: 0;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  #car-details-text .extras .item:first-of-type{
+    margin-right: 16px;
+  }
+  
+  #car-details-text .extras .item .text {
+    margin-left: 2px;
+  }
+  
+  #car-details-text .extras .item .text p {
+    font-size: 16px;
+  }
+  
+  #car-details-text .extras .item .text.low p {
+    font-size: 16px;
+  }
+  
+  #car-details-text .extras .item .text.low p.up {
+    font-size: 12px;
   }
   
   #car-details-text .price{
@@ -192,47 +229,26 @@
     font-size: 56px;
   }
 
-  #car-details-text .buttons-title {
-    max-width: 256px;
-    margin: 0 auto;
-    margin-top: 32px;
-    margin-bottom: 10px;
-    text-align: center;
-    letter-spacing: -1px;
-    /* font-size: 16px;
-    color: #008A2E;
-    line-height: 1; */
-  }
-  
-  #car-details-text .buttons-container{
+  #car-details-text .buttons-container {
     flex-direction: column;
-    width: 100%;
-    margin: 0 auto;
-    max-width: 256px;
-  }
-  #car-details-text .buttons-container .button{
-    width: 100%;
-    margin: 8px 0;
-    height: 64px;
+    align-items: center;
   }
   
-  #car-details-text .buttons-container .button p{
-    font-size: 22px;
+  #car-details-text .buttons-container .button {
+    width: max-content;
+    max-width: 100%;
+  }
+  
+  #car-details-text .buttons-container .button img{
+    margin-left: 16px;
   }
   
   #car-details-text .warning{
-    margin: 0 auto;
-    margin-top: 24px;
-    width: 85%;
+    margin-left: 0;
+    margin-top: 16px;
   }
   
-  #car-details-text .warning p{
-    margin-left: 24px;
-    line-height: 22px;
-  }
-
   #car-details-text .warning img{
-    width: 32px;
-  }
-  
+    width: 22px;
+  }  
 }

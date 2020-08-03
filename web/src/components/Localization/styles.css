@@ -1,0 +1,70 @@
+
+#localization {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  pointer-events: all;
+  transition: background .5s ease-out;
+}
+
+#localization .box {
+  border-radius: 10px;
+  overflow: hidden;
+  transform-origin: center center;
+  transition: opacity .3s ease-out, transform .3s ease-out;
+  opacity: 1;
+  max-width: 90%;
+}
+
+#localization .box-header {
+  background: #fff;
+  padding: 8px 40px;
+}
+
+#localization .options {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #003632;
+}
+
+#localization .options .item {
+  padding: 6px;
+  width: 100%;
+  background: #003632;
+  color: #74f0ff;
+  text-align: center;
+  cursor: pointer;
+  transition: background .3s ease-out;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#localization .options .item:hover {
+  background: #004640;
+}
+
+#localization .box-header h2{
+  color: #D14200;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.2;
+  max-width: 120px;
+}
+
+#localization.enabled {
+  background: rgba(0, 0, 0, 0);
+  pointer-events: none;
+}
+
+#localization.enabled .box {
+  transform: scale(.75);
+  opacity: 0;
+}

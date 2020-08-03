@@ -14,7 +14,8 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: #001C1A;font-family: 'Poppins', sans-serif;
+  background: #001C1A;
+  font-family: 'Poppins', sans-serif;
 }
 
 input, button, textarea {
@@ -30,7 +31,7 @@ a {
   text-decoration: none;
 }
 
-figure {
+picture {
   display: contents;
 }
 
