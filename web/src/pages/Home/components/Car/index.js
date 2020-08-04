@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 import { toCurrency } from '../../../../utils/number'
 import timeIcon from '../../../../assets/icons/timer90.svg'
-import taxIcon from '../../../../assets/icons/tax.svg'
+import moneyBackIcon from '../../../../assets/icons/money-back.svg'
+// import taxIcon from '../../../../assets/icons/tax.svg'
 
 
 // import { Container } from './styles';
@@ -49,9 +50,9 @@ const Car = ({car}) => {
             </div>
           </div>
           <div className="tax-item">
-            <img src={taxIcon} alt="Icone de periodo de 90 dias"/>
+            <img src={moneyBackIcon} alt="Icone de periodo de 90 dias"/>
             <div className="text">
-              <p>taxas de 0,99%</p>
+              <p>troco na troca</p>
             </div>
           </div>
         </div>

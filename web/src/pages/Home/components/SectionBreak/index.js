@@ -9,7 +9,7 @@ function SectionBreak() {
   return (
     <section id="section-break" className='container'>
       <p className="text-left">
-       Comemore o aniversário da Fiat Dunana região com as 
+       Comemore o aniversário da Fiat Duna na região com as 
        <strong> melhores ofertas </strong> 
        e condições para comprar seu seminovo.
       </p>

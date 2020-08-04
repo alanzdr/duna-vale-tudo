@@ -28,7 +28,7 @@ const Provider = ({ children }) => {
 
   const sendWhastEvent = useCallback((label) => {
     sendEvent({
-      category: 'feirao-vale-tudo',
+      category: 'feirao-seminovos-duna',
       action: `click`,
       label,
     });

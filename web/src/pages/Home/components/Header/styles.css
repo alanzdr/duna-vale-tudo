@@ -99,7 +99,7 @@
   #home-header #logo-container {
     flex-direction: column;
     align-items: center;
-    margin-top: 0;
+    margin-top: -40px;
   }
   
   #home-header #logo-container .logo{
@@ -111,7 +111,12 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
+
+  
+  #home-header #logo-container {
+    margin-top: 0px;
+  }
   
   #home-header .background-square {
     height: 318px;

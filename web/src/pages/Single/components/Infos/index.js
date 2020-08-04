@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback } from 'react';
 import { Link } from 'react-router-dom';
 
 import { getWhatsLink } from '../../../../utils/whatsapp'
@@ -20,12 +20,30 @@ const Infos = ( { isMobile, car, id } ) =>  {
   const analytics = useAnalytics();
   const { city } = useLocalization();
 
-  const handleWithButtonClick = (eventLabel) => {
+  const getEventLabel = useCallback(
+    () => {
+      // Criciúma = 0
+      // Tubarão = 1
+      // Imbituba = 2
+      // Araranguá = 3
+      switch (city) {
+        case 0: return 'Criciúma';
+        case 1: return 'Tubarão';
+        case 2: return 'Imbituba';
+        case 3: return 'Araranguá';
+        default: return 'Desconhecido';
+      }
+    },
+    [city],
+  )
+
+  const handleWithButtonClick = useCallback(() => {
+    const eventLabel = getEventLabel()
     analytics.event.whatsapp(eventLabel);
     if("fbq" in window) {
       window.fbq('track', 'Contact');
     }
-  }
+  }, [analytics.event, getEventLabel])
   
   return (
     <div id='car-details-text'>
