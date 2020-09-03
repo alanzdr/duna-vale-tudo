@@ -9,9 +9,8 @@ function SectionBreak() {
   return (
     <section id="section-break" className='container'>
       <p className="text-left">
-       Comemore o aniversário da Fiat Duna na região com as 
-       <strong> melhores ofertas </strong> 
-       e condições para comprar seu seminovo.
+        As <strong> melhores ofertas e condições</strong> exclusivas para você 
+        comprar seu seminovo com garantia e procedência.
       </p>
       <div className="box-content">
         <div className="box">

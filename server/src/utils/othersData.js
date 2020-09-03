@@ -15,13 +15,13 @@ const setupOthersData = (id) => {
     case '686042': return {	price:'51900',	promotion: '49900' }
     case '686433': return {	price:'75900',	promotion: '71900' }
     case '689832': return {	price:'42900',	promotion: '39900' }
-    case '689848': return {	price:'47900',	promotion: '44900' }
+    case '689848': return {	price:'47900',	promotion: '45900' }
     case '687493': return {	price:'42900',	promotion: '39900' }
     case '687443': return {	price:'40900',	promotion: '38900' }
     case '678286': return {	price:'34900',	promotion: '31900' }
     case '686078': return {	price:'33900',	promotion: '31900' }
     case '689819': return {	price:'33900',	promotion: '31900' }
-    case '689823': return {	price:'78900',	promotion: '74900' }
+    case '689823': return {	price:'78900',	promotion: '76900' }
 
     default: return {}
   }
