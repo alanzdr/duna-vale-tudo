@@ -6,7 +6,7 @@ export const useCountdown = () => {
   // const now = Date.now();
   const [now, setNow] = useState(moment())
   const [difference, setDifference] = useState();
-  const eventTime = 1598904000000;
+  const eventTime = 1601521199000;
 
   useEffect(() => {
     // const Interval = 

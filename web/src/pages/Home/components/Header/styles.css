@@ -3,30 +3,20 @@
   width: 100%;
 }
 
-#home-header .background-square{
-  position: absolute;
-  z-index: 0;
-  height: 320px;
-  width: 100%;
-  top: 0;
-  left: 0;
-  background: #02100F;
-}
-
-#home-header #countdown-container{
-  position: relative;
+#home-header #countdown-container {
   height: 400px;
+  position: relative;
   display: flex;
   justify-content: center;
 }
 
 #home-header .cars-image {
   position: absolute;
-  z-index: 10;
+  z-index: 0;
   width: 100%;
-  left: 50%;
-  top: 55%;
-  transform: translate(-50%, -50%);
+  left: 0;
+  top: 0;
+  /* transform: translate(-50%, -50%); */
 }
 
 #home-header .countdown {
@@ -41,7 +31,7 @@
   justify-content: center;
   align-items: center;
   font-size: 24px;
-  color: #D14200;
+  color: #00FFA0;
 }
 
 #home-header .countdown h2 img{
@@ -49,6 +39,8 @@
 }
 
 #home-header #logo-container {
+  position: relative;
+  z-index: 10;
   display: flex;
   flex-direction: row;
   align-items: flex-end;
@@ -69,7 +61,7 @@
   margin-left: auto;
   margin-bottom: 16px;
   font-weight: bold;
-  color: #D14200;
+  color: #00FFA0;
 }
 
 #home-header #logo-container .online img {
@@ -77,14 +69,13 @@
 }
 
 @media screen and (max-width: 1000px) {
-    
-  #home-header .background-square{
-    height: 45%;
-  }
-  
   #home-header .cars-image {
-    width: 80%;
-    top: 50%;
+    /* width: 80%; */
+    width: auto;
+    min-width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* top: 50%; */
   }
   
   #home-header .countdown h2{
@@ -111,7 +102,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) {
 
   
   #home-header #logo-container {
@@ -127,4 +118,4 @@
     top: 69%;
   }
 
-}
+} */

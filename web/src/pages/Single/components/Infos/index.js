@@ -9,9 +9,9 @@ import Galery from '../Galery';
 import CountdownText from '../CountdownText';
 
 // assets
+import BackIcon from '../../../../assets/icons/back.svg'
 import TimeIcon from '../../../../assets/icons/time.svg'
 import WhatsappIcon from '../../../../assets/icons/whatsapp.svg'
-import BackIcon from '../../../../assets/icons/back.svg'
 import timeIcon from '../../../../assets/icons/timer90.svg'
 import moneyBackIcon from '../../../../assets/icons/money-back.svg'
 import './styles.css';

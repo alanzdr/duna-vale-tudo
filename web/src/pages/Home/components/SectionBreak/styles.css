@@ -2,10 +2,12 @@
   margin-top: 16px;
   display: flex;
   align-items: center;
+  position: relative;
+  z-index: 10;
 }
 
 #section-break .text-left {
-  color: #74F0FF;
+  color: #00FFA0;
   font-size: 20px;
   line-height: 1.2;
   max-width: 617px;

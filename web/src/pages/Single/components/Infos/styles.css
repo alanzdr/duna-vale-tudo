@@ -2,7 +2,7 @@
   margin: 0;
   font-size: 16px;
   line-height: 24px;
-  color: #FF3400;
+  color: #00FFA0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -32,7 +32,7 @@
   font-size: 32px;
   font-weight: normal;
   line-height: 40px;
-  color: #B8FAFF;
+  color: #00FFA0;
   margin-top: 4px;
 }
 
@@ -85,7 +85,7 @@
   margin: 0;
   font-size: 24px;
   line-height: 40px;
-  color: #B8FAFF;
+  color: #00FFA0;
 }
 
 #car-details-text .price .to {
@@ -162,7 +162,7 @@
   font-weight: 500;
   line-height: 1.5;
   max-width: 175px;
-  color: #D14200;
+  color: #00FFA0;
 }
 
 @media screen and (max-width: 1000px) {
