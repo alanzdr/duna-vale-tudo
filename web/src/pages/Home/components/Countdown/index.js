@@ -1,5 +1,6 @@
 import React from 'react';
-import { useCountdown } from '../../../../utils/date';
+// import { useCountdown } from '../../../../utils/date';
+import useCountdown from '../../../../hooks/useCountdown'
 import "./styles.css";
 
 const Countdown = () => {

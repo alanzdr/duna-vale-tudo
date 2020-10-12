@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');  
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 @font-face {
-  font-family: 'Bebas Neue';
-  src: local('Bebas Neue'), url(./assets/fonts/bebasneue-bold.ttf) format('truetype');
+  font-family: "Bebas Neue";
+  src: local("Bebas Neue"),
+    url(./assets/fonts/bebasneue-bold.ttf) format("truetype");
+}
+
+:root {
+  font-size: 60%;
 }
 
 * {
@@ -14,12 +19,14 @@
 
 body {
   -webkit-font-smoothing: antialiased;
-  background: #001C1A;
-  font-family: 'Poppins', sans-serif;
+  background: #f6f6f6;
+  font-family: "Poppins", sans-serif;
 }
 
-input, button, textarea {
-  font-family: 'Poppins', sans-serif;
+input,
+button,
+textarea {
+  font-family: "Poppins", sans-serif;
 }
 
 button {
@@ -37,6 +44,23 @@ picture {
 
 .container {
   width: 90%;
-  max-width: 1088px;
+  max-width: 110rem;
   margin: 0 auto;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 2;
+}
+
+@media (min-width: 1000px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
+
+@media (min-width: 1400px) {
+  :root {
+    font-size: 65%;
+  }
 }

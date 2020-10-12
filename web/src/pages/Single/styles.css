@@ -1,6 +1,5 @@
 #car-details {
-  padding-top: 32px;
-  padding-bottom: 56px;
+  padding: 5.6rem 0;
 }
 
 #car-details .container {
@@ -8,22 +7,21 @@
   flex-direction: row;
 }
 
-#car-details main{
+#car-details main {
   width: 50%;
 }
 
-#car-details aside{
-  width: calc(50% - 16px);
-  margin-left: 16px;
+#car-details aside {
+  width: calc(50% - 1.6rem);
+  margin-left: 1.6rem;
 }
 
 @media screen and (max-width: 1000px) {
-  
-  #car-details main{
+  #car-details main {
     width: 100%;
   }
-  
-  #car-details aside{
+
+  #car-details aside {
     display: none;
   }
 }

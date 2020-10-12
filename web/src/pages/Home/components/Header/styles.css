@@ -3,119 +3,91 @@
   width: 100%;
 }
 
-#home-header #countdown-container {
-  height: 400px;
-  position: relative;
+#home-header .background {
+  position: absolute;
+  width: 100%;
+  z-index: 0;
+  height: auto;
+  left: 0;
+  top: 0;
+  object-fit: cover;
+}
+
+#header-content {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+#header-content .logo {
+  width: 56%;
+}
+
+#header-content .logo img {
+  width: auto;
+  object-fit: contain;
+  object-position: center;
+  transform: translateX(-10rem);
+}
+
+#header-content .countdown {
+  width: 44%;
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
 }
 
-#home-header .cars-image {
-  position: absolute;
-  z-index: 0;
-  width: 100%;
-  left: 0;
-  top: 0;
-  /* transform: translate(-50%, -50%); */
-}
-
-#home-header .countdown {
-  position: relative;
-  z-index: 20;
-  text-align: center;
-  margin-top: 56px;
-}
-
-#home-header .countdown h2{
+#header-content .countdown h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-  color: #00FFA0;
+  font-size: 2.4rem;
+  color: #373737;
 }
 
-#home-header .countdown h2 img{
-  margin-right: 16px;
+#header-content .countdown h2 img {
+  margin-right: 1.6rem;
 }
 
-#home-header #logo-container {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  margin-top: 16px;
-}
-
-#home-header #logo-container .logo{
-  width: 180px;
-}
-
-#home-header #logo-container .logo img{
-  width: 100%;
-}
-
-#home-header #logo-container .online {
-  display: flex;
-  flex-direction: row;
-  margin-left: auto;
-  margin-bottom: 16px;
-  font-weight: bold;
-  color: #00FFA0;
-}
-
-#home-header #logo-container .online img {
-  margin-right: 6px;
-}
-
-@media screen and (max-width: 1000px) {
-  #home-header .cars-image {
-    /* width: 80%; */
-    width: auto;
-    min-width: 100%;
-    left: 50%;
-    transform: translateX(-50%);
-    /* top: 50%; */
-  }
-  
-  #home-header .countdown h2{
-    font-size: 16px;
-  }
-  
-  #home-header .countdown h2 img{
-    margin-right: 12px;
-    width: 20px;
-  }
-  
-  #home-header #logo-container {
-    flex-direction: column;
+@media (max-width: 1180px) {
+  #header-content .logo {
+    width: 50%;
+    display: flex;
     align-items: center;
-    margin-top: -40px;
+    justify-content: center;
   }
-  
-  #home-header #logo-container .logo{
-    width: 150px;
+  #header-content .logo img {
+    max-width: 100%;
+    transform: none;
   }
-  
-  #home-header #logo-container .online {
-    margin: 16px 0;
+  #header-content .countdown {
+    width: 50%;
   }
 }
 
-/* @media screen and (max-width: 500px) {
-
-  
-  #home-header #logo-container {
-    margin-top: 0px;
+@media (max-width: 1000px) {
+  #header-content {
+    flex-direction: column;
   }
-  
-  #home-header .background-square {
-    height: 318px;
+  #header-content .logo {
+    width: 100%;
   }
-  
-  #home-header .cars-image {
-    width: 110%;
-    top: 69%;
+  #header-content .countdown {
+    width: 100%;
   }
 
-} */
+  #header-content .countdown h2 {
+    font-size: 1.6rem;
+  }
+
+  #header-content .countdown h2 img {
+    margin-right: 1.2rem;
+    width: 2rem;
+  }
+}

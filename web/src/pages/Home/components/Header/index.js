@@ -1,30 +1,45 @@
 import React from 'react';
 
 import Countdown from '../Countdown'
+import Picture from '../../../../components/Picture'
 
 // Assets
-import HeaderImagePng from '../../../../assets/images/header.png'
-import HeaderImage from '../../../../assets/images/header.webp'
-import HeaderImage1366 from '../../../../assets/images/header-1366.webp'
-import HeaderImage1000 from '../../../../assets/images/header-1000.webp'
-import HeaderImage400 from '../../../../assets/images/header-400.webp'
-import Logo from '../../../../assets/images/logo.svg'
-import VerifiedIcon from '../../../../assets/icons/verified.svg'
+import HeaderBackground from '../../../../assets/images/header-background.webp'
+import HeaderBackgroundPng from '../../../../assets/images/header-background.png'
+import HeaderBackground1366 from '../../../../assets/images/header-background-1366.webp'
+import HeaderBackground1000 from '../../../../assets/images/header-background-1000.webp'
+import HeaderBackground400 from '../../../../assets/images/header-background-400.webp'
+
+import Logo from '../../../../assets/images/logo.webp'
+import LogoPng from '../../../../assets/images/logo.png'
 import TimeIcon from '../../../../assets/icons/time.svg'
+
 import "./styles.css"
 
 const Header = () => {
   return (
     <header id='home-header'>
-      <picture>
-        <source type="image/webp" media="(max-width: 375px)" srcSet={HeaderImage400} />
-        <source type="image/webp" media="(max-width: 1000px)" srcSet={HeaderImage1000} />
-        <source type="image/webp" media="(max-width: 1366px)" srcSet={HeaderImage1366} />
-        <source type="image/webp" srcSet={HeaderImage} />
-        <img className='cars-image' src={HeaderImagePng} alt="Carros"/>
-      </picture>
-      <div id='countdown-container' className='container'>
-        
+      <Picture 
+        source={[
+          { type: 'image/webp', media: '(max-width: 400px)', src: HeaderBackground400 },
+          { type: 'image/webp', media: '(max-width: 1000px)', src: HeaderBackground1000 },
+          { type: 'image/webp', media: '(max-width: 1366px)', src: HeaderBackground1366 },
+          { type: 'image/webp', src: HeaderBackground }
+        ]}
+        className='background' 
+        src={HeaderBackgroundPng} 
+        alt="Imagem de fundo"
+        loading="auto"
+      />
+      <div id='header-content' className='container'>
+        <div className="logo">
+          <Picture 
+            source={[{ type: 'image/webp', src: Logo }]}
+            src={LogoPng} 
+            alt="Seminovos Fiat Duna"
+            loading="auto"
+          />
+        </div>
         <div className="countdown">
           <h2>
             <img src={TimeIcon} alt="Icone de tempo"/>
@@ -32,15 +47,6 @@ const Header = () => {
           </h2>
           <Countdown />
         </div>
-      </div>
-      <div id="logo-container" className='container'>
-        <div className="logo">
-          <img className='logo' src={Logo} alt="Seminovos Fiat Duna"/>
-        </div>
-        <p className='online'>
-          <img src={VerifiedIcon} alt="Icone de segurança"/>
-          Negociação 100% online e segura
-        </p>
       </div>
     </header>
   )

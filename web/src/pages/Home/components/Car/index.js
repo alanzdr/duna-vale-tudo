@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
 
+import Picture from '../../../../components/Picture'
 import { toCurrency } from '../../../../utils/number'
-import timeIcon from '../../../../assets/icons/timer90.svg'
-import moneyBackIcon from '../../../../assets/icons/money-back.svg'
+import moneyIcon from '../../../../assets/icons/money-safe.svg'
+import changeCarIcon from '../../../../assets/icons/change-vehicle.svg'
 // import taxIcon from '../../../../assets/icons/tax.svg'
 
 
@@ -19,7 +20,10 @@ const Car = ({car}) => {
       <div className="car-box">
         <div className="image-container">
           <div className={'image'}>
-            <img src={car.thumb} alt={car.fullName}/>
+            <Picture 
+              src={car.thumb} 
+              alt={car.fullName}
+            />
           </div>
         </div>
 
@@ -43,16 +47,16 @@ const Car = ({car}) => {
         
         <div className="tax-content">
           <div className="tax-item">
-            <img src={timeIcon} alt="Icone de periodo de 90 dias"/>
+            <img src={moneyIcon} alt="Icone de dinheiro na mão"/>
             <div className="text">
-              <p className='low'>primeira parcela</p>
-              <p>para 90 dias!</p>
+              <p className='low'>Parcelamento</p>
+              <p>em até 60X</p>
             </div>
           </div>
           <div className="tax-item">
-            <img src={moneyBackIcon} alt="Icone de periodo de 90 dias"/>
+            <img src={changeCarIcon} alt="Icone de Troca de carro"/>
             <div className="text">
-              <p>troco na troca</p>
+              <p>Usado<br />na troca</p>
             </div>
           </div>
         </div>

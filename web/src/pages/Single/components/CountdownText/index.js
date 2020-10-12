@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { useCountdown } from '../../../../utils/date'
+import useCountdown from '../../../../hooks/useCountdown'
 
 const CountdownText = () => {
   const {days, hours, minutes, seconds} = useCountdown();

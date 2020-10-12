@@ -12,8 +12,9 @@ import CountdownText from '../CountdownText';
 import BackIcon from '../../../../assets/icons/back.svg'
 import TimeIcon from '../../../../assets/icons/time.svg'
 import WhatsappIcon from '../../../../assets/icons/whatsapp.svg'
-import timeIcon from '../../../../assets/icons/timer90.svg'
-import moneyBackIcon from '../../../../assets/icons/money-back.svg'
+import moneyIcon from '../../../../assets/icons/money-safe.svg'
+import changeCarIcon from '../../../../assets/icons/change-vehicle.svg'
+
 import './styles.css';
 
 const Infos = ( { isMobile, car, id } ) =>  {
@@ -57,16 +58,16 @@ const Infos = ( { isMobile, car, id } ) =>  {
       </div>
       <div className="extras">
         <div className="item">
-          <img src={timeIcon} alt="Icone de periodo de 90 dias"/>
-          <div className="low text">
-            <p className='up'>primeira parcela</p>
-            <p>para 90 dias!</p>
+          <img src={moneyIcon} alt="Icone de dinheiro na mão"/>
+          <div className="text">
+            <p className='low'>Parcelamento</p>
+            <p>em até 60X</p>
           </div>
         </div>
         <div className="item">
-          <img src={moneyBackIcon} alt="Icone de Retorno Financeiro"/>
+          <img src={changeCarIcon} alt="Icone de Troca de carro"/>
           <div className="text">
-            <p>troco na troca</p>
+            <p>Usado<br />na troca</p>
           </div>
         </div>
       </div>

@@ -1,15 +1,16 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useMemo } from 'react';
 import * as moment from 'moment';
 import 'moment/locale/pt-br';
 
-export const useCountdown = () => {
+const EVENT_DATE = '10 31 2020 23:59:59 GMT-0300';
+
+const useCountdown = () => {
   // const now = Date.now();
   const [now, setNow] = useState(moment())
   const [difference, setDifference] = useState();
-  const eventTime = 1601521199000;
+  const eventTime = useMemo(() => (new Date(EVENT_DATE)).getTime(), []);
 
   useEffect(() => {
-    // const Interval = 
     const interval = setInterval(() => {
       setNow(moment())
     }, 1000)
@@ -19,14 +20,13 @@ export const useCountdown = () => {
   }, [])
 
   useEffect(() => {
-    // const d = endDate.di
     const diffTime = eventTime - now.toDate().getTime();
     const duration = moment.duration(diffTime, 'milliseconds');
     setDifference(moment.duration(duration, 'milliseconds'));
     return () => {
       setDifference(undefined);
     }
-  }, [now])
+  }, [eventTime, now])
 
   if (!difference) {
     return {
@@ -44,3 +44,5 @@ export const useCountdown = () => {
     seconds: difference.seconds()
   }
 }
+
+export default useCountdown;
