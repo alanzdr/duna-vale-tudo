@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "predeploy": "gcloud config set project sower-283917",
     "deploy": "gcloud app deploy"
   },
   "dependencies": {

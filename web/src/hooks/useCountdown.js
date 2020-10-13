@@ -2,7 +2,7 @@ import { useEffect, useState, useMemo } from 'react';
 import * as moment from 'moment';
 import 'moment/locale/pt-br';
 
-const EVENT_DATE = '10 31 2020 23:59:59 GMT-0300';
+const EVENT_DATE = '11 05 2020 23:59:59 GMT-0300';
 
 const useCountdown = () => {
   // const now = Date.now();

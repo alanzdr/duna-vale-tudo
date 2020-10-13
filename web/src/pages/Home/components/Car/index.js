@@ -37,7 +37,11 @@ const Car = ({car}) => {
             <p className="from">
               de R$ {toCurrency(car.price)},00 por
             </p>
-          ) : null}
+          ) : (
+            <p className="from">
+              Oferta Especial
+            </p>
+          )}
           <p className="to">
             R$
             <strong> {toCurrency(car.promotion)}</strong>
