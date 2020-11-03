@@ -1,7 +1,6 @@
 
 const setupOthersData = (id) => {
   switch (id) {
-    case '672665': return { price: '38990', promotion: '35900' }
     case '673544': return { price: '65900', promotion: '62900' }
     case '679905': return { price: '22900', promotion: '19900' }
     case '673480': return { promotion: '69900' }
