@@ -24,7 +24,7 @@
   margin-top: 2.4rem;
   font-size: 4.8rem;
   color: #373737;
-  line-height: 4rem;
+  line-height: 1;
 }
 
 #car-details-text .title h2 {
@@ -33,7 +33,7 @@
   font-weight: normal;
   line-height: 1.5;
   color: #848484;
-  margin-top: 0.4rem;
+  margin-top: 0.8rem;
 }
 
 #car-details-text .extras {
@@ -73,7 +73,7 @@
 }
 
 #car-details-text .price {
-  margin-top: 3.2rem;
+  margin-top: 4rem;
 }
 
 #car-details-text .price .from {

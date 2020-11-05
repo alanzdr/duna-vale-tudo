@@ -6,8 +6,8 @@
   grid-template:
     "safety safety"
     "text-left box"
-    "warning warning";
-  grid-gap: 2.4rem;
+    "text-left warning";
+  grid-gap: 0.6rem;
 }
 
 #section-break .safety-online {
@@ -17,6 +17,7 @@
   justify-content: flex-end;
   align-items: center;
   color: #373737;
+  margin-bottom: 1.8rem;
 }
 
 #section-break .safety-online img {
@@ -25,21 +26,17 @@
 
 #section-break .text-left {
   grid-area: text-left;
-  max-width: 58rem;
+  max-width: 63rem;
   display: flex;
   align-items: center;
 }
 
 #section-break .text-left p {
   color: #373737;
-  font-size: 1.6rem;
-  line-height: 1.5;
-  max-width: 58rem;
-  font-weight: bold;
-}
-
-#section-break .text-left p strong {
-  color: #f32327;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  max-width: 63rem;
+  letter-spacing: -0.092rem;
 }
 
 #section-break .box-content {
@@ -99,11 +96,20 @@
     text-align: center;
     margin: 0 auto;
     margin-top: 2.4rem;
+    font-size: 1.6rem;
+    padding: 0 2.4rem;
+  }
+
+  #section-break .text-left p {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
   }
 
   #section-break .warning {
     text-align: center;
+    margin: 0 auto;
     margin-top: 0.8rem;
+    max-width: 24rem;
   }
 
   #section-break .safety-online {

@@ -25,7 +25,7 @@
 
 @media screen and (max-width: 1000px) {
   #cars-container {
-    margin-top: 0;
+    margin-top: 2.4rem;
     width: 90%;
   }
 

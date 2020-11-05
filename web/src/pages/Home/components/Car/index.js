@@ -33,13 +33,18 @@ const Car = ({car}) => {
         </div>
 
         <div className="price">
-          {car.price ? (
+          {/* {car.price ? (
             <p className="from">
               de R$ {toCurrency(car.price)},00 por
             </p>
           ) : (
             <p className="from">
               Oferta Especial
+            </p>
+          )} */}
+          {car.fipe && (
+            <p className="from">
+              Abaixo da Fipe
             </p>
           )}
           <p className="to">
@@ -53,8 +58,8 @@ const Car = ({car}) => {
           <div className="tax-item">
             <img src={moneyIcon} alt="Icone de dinheiro na mão"/>
             <div className="text">
-              <p className='low'>Parcelamento</p>
-              <p>em até 60X</p>
+              <p>Até 100%</p>
+              <p>da FIPE</p>
             </div>
           </div>
           <div className="tax-item">

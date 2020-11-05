@@ -5,6 +5,7 @@
 #car-details .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 #car-details main {

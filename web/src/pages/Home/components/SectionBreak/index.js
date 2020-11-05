@@ -11,12 +11,13 @@ function SectionBreak() {
     <section id="section-break" className='container'>
       <div className="text-left">
         <p>
-          As melhores <strong>ofertas e condições exclusivas </strong> 
-          para você comprar seu seminovo com garantia, procedência e 
-          até 100% de financiamento. *
+          As melhores condições para você comprar seu seminovo com 
+          <strong>
+            {' garantia, procedência, supervalorização do seu usado e aprovação na hora! *'}
+          </strong>
         </p>
       </div>
-      <p className="warning">*Sujeito à aprovação bancária. </p>
+      <p className="warning">*Mediante análise de crédito. Consulte condições na concessionária.</p>
       <p className="safety-online">
         <img src={VerifiedIcon} alt="Icone de Retorno Financeiro"/>
         Negociação 100% online e segura
@@ -25,8 +26,8 @@ function SectionBreak() {
         <div className="box">
           <img src={moneyIcon} alt="Icone de dinheiro na mão"/>
           <div className="text">
-            <p className='low'>Parcelamento</p>
-            <p>em até 60X</p>
+            <p className='low'>Até 100%</p>
+            <p>da FIPE</p>
           </div>
         </div>
         <div className="box">

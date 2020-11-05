@@ -2,12 +2,12 @@ import { useEffect, useState, useMemo } from 'react';
 import * as moment from 'moment';
 import 'moment/locale/pt-br';
 
-const EVENT_DATE = '11 05 2020 23:59:59 GMT-0300';
+const EVENT_DATE = '12-10-2020 23:59:59 GMT-0300';
 
 const useCountdown = () => {
   // const now = Date.now();
   const [now, setNow] = useState(moment())
-  const [difference, setDifference] = useState();
+  const [difference, setDifference] = useState(null);
   const eventTime = useMemo(() => (new Date(EVENT_DATE)).getTime(), []);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const useCountdown = () => {
   }
   
   return {
-    days: difference.days(),
+    days: Math.floor(difference.asDays()),
     hours: difference.hours(),
     minutes: difference.minutes(),
     seconds: difference.seconds()

@@ -60,8 +60,8 @@ const Infos = ( { isMobile, car, id } ) =>  {
         <div className="item">
           <img src={moneyIcon} alt="Icone de dinheiro na mão"/>
           <div className="text">
-            <p className='low'>Parcelamento</p>
-            <p>em até 60X</p>
+            <p className='low'>Até 100%</p>
+            <p>da FIPE</p>
           </div>
         </div>
         <div className="item">
@@ -75,11 +75,11 @@ const Infos = ( { isMobile, car, id } ) =>  {
         <Galery data={car} />
       ) : null}
       <div className="price">
-        {car.price ? (
+        {/* {car.price ? (
           <p className="from">
             de R$ {toCurrency(car.price)} por apenas
           </p>
-        ) : null}
+        ) : null} */}
         <p className="to">
           R$
           <strong> {toCurrency(car.promotion)}</strong>
